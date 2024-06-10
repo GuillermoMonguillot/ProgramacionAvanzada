@@ -1,3 +1,4 @@
+import java.time.LocalTime;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
@@ -47,12 +48,29 @@ public class Coche extends Vehiculo {
     private String neumatico;
     private Random random = new Random();
 
-    public Coche(int TANQUE_GASOLINA, int gasolina, int maximo_tanque, int minimo_tanque) {
+    private final Gasolinera gasolineraIzq;
+    private final Gasolinera gasolineraDch;
+    private final Puente puenteIzq;
+    private final Puente puenteDch;
+    private final TramoCronometrado tramo1;
+    private final TramoCronometrado tramo2;
+    private final TramoCronometrado tramo3;
+    private final TramoCronometrado tramo4;
+
+    public Coche(int TANQUE_GASOLINA, int gasolina, int maximo_tanque, int minimo_tanque, Gasolinera gasolineraIzq, Gasolinera gasolineraDch, Puente puenteIzq, Puente puenteDch, TramoCronometrado tramo1, TramoCronometrado tramo2, TramoCronometrado tramo3, TramoCronometrado tramo4) {
         super(generarMatricula(), TANQUE_GASOLINA, gasolina, maximo_tanque, minimo_tanque);
         this.neumatico = seleccionarNeumaticoAlAzar();
+        this.gasolineraIzq = gasolineraIzq;
+        this.gasolineraDch = gasolineraDch;
+        this.puenteIzq = puenteIzq;
+        this.puenteDch = puenteDch;
+        this.tramo1 = tramo1;
+        this.tramo2 = tramo2;
+        this.tramo3 = tramo3;
+        this.tramo4 = tramo4;
     }
 
-    public static synchronized String generarMatricula() {
+    private static synchronized String generarMatricula() {
         Random random = new Random();
         int id;
         String letras;
@@ -64,13 +82,13 @@ public class Coche extends Vehiculo {
                 sb.append(LETRAS.charAt(random.nextInt(LETRAS.length())));
             }
             letras = sb.toString();
-            matricula = String.format("%04d-%s", id, letras); //Especifica que se debe formatear un número entero (d de "decimal") con al menos 4 dígitos, rellenando con ceros a la izquierda si es necesario.
+            matricula = String.format("%04d-%s", id, letras);
         } while (matriculasGeneradas.containsKey(id));
         matriculasGeneradas.put(id, letras);
         return matricula;
     }
 
-    public String seleccionarNeumaticoAlAzar() {
+    private String seleccionarNeumaticoAlAzar() {
         Random random = new Random();
         return TIPOS_NEUMATICOS[random.nextInt(TIPOS_NEUMATICOS.length)];
     }
@@ -127,23 +145,62 @@ public class Coche extends Vehiculo {
         // Del Parking al Puente
         TimeUnit.SECONDS.sleep(3 + random.nextInt(3)); // Entre 3 y 5 segundos
 
+        // Cruzar el puente
+        if (tramo == 1 || tramo == 2) {
+            puenteIzq.cruzarIzquierda(this);
+        } else {
+            puenteDch.cruzarDerecha(this);
+        }
+
         // Del Puente a la Gasolinera
         TimeUnit.SECONDS.sleep(3 + random.nextInt(3)); // Entre 3 y 5 segundos
 
         // Repostar en la gasolinera si es necesario
         if (getGasolina() < getTANQUE_GASOLINA() / 2) {
-            repostarEnGasolinera(tramo);
+            if (tramo == 1 || tramo == 2) {
+                gasolineraIzq.entrarGasolinera(this);
+            } else {
+                gasolineraDch.entrarGasolinera(this);
+            }
         }
-    }
 
-    private void repostarEnGasolinera(int tramo) {
-        System.out.println("Coche " + getMatricula() + " repostando en gasolinera del tramo " + tramo);
-        setGasolina(getTANQUE_GASOLINA());
+        // Llegar al tramo cronometrado
+        if (tramo == 1) {
+            tramo1.entrarTramo(this);
+        } else if (tramo == 2) {
+            tramo2.entrarTramo(this);
+        } else if (tramo == 3) {
+            tramo3.entrarTramo(this);
+        } else {
+            tramo4.entrarTramo(this);
+        }
     }
 
     private void completarTramo(int tramo) throws InterruptedException {
         System.out.println("Coche " + getMatricula() + " compitiendo en el tramo " + tramo);
-        TimeUnit.SECONDS.sleep(10); // Simulación de tiempo en el tramo
+        long tiempoTotal = 0;
+        for (int i = 1; i <= 4; i++) {
+            long tiempoSector = 4000 + new Random().nextInt(7000); // Entre 4 y 10 segundos
+            if (!getNeumatico().equals(TramoCronometrado.getClima())) {
+                tiempoSector *= 3; // Si las ruedas no son adecuadas, tarda el triple
+            }
+            System.out.println("Coche " + getMatricula() + " recorriendo sector " + i + " del tramo " + tramo);
+            TimeUnit.MILLISECONDS.sleep(tiempoSector);
+            tiempoTotal += tiempoSector;
+
+            if (i == 3) {
+                // Permitir que otro coche entre al tramo
+                // Esta lógica depende de cómo implementes los tramos y puentes
+            }
+        }
+
+        // Calcular y registrar el tiempo total del tramo
+        long tiempoEnSegundos = tiempoTotal / 1000;
+        LocalTime horaFinalizacion = LocalTime.now();
+        String registro = String.format("Coche: %s, Hora: %s, Tramo: %d, Tiempo: %d segundos",
+                getMatricula(), horaFinalizacion, tramo, tiempoEnSegundos);
+        System.out.println(registro);
+        // Aquí se puede agregar el código para guardar el registro en una estructura interna
     }
 
     private void regresarAlParking() throws InterruptedException {
@@ -157,10 +214,5 @@ public class Coche extends Vehiculo {
     private void descansarEnParking() throws InterruptedException {
         System.out.println("Coche " + getMatricula() + " descansando en el parking.");
         TimeUnit.SECONDS.sleep(5 + random.nextInt(6)); // Entre 5 y 10 segundos
-    }
-
-    @Override
-    public String toString() {
-        return super.toString() + " Coche{" + "neumatico=" + neumatico + '}';
     }
 }

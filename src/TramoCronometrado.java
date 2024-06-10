@@ -25,6 +25,10 @@ public class TramoCronometrado {
         this.numeroTramo = numeroTramo;
     }
 
+    public static String getClima() {
+        return clima;
+    }
+
     public static void setClima(String nuevoClima) {
         clima = nuevoClima;
     }

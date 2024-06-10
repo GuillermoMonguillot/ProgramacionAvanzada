@@ -1,5 +1,4 @@
 
-import static java.lang.Math.random;
 import java.util.HashSet;
 import java.util.Random;
 import java.util.Set;
@@ -17,11 +16,17 @@ public class Camion extends Vehiculo {
 
     private static final Set<String> matriculasGeneradas = new HashSet<>();
     private Random random = new Random();
-    private static final int CAPACIDAD_MAXIMA = 1000;
-    private int cargaCombustible;
-    public Camion(int gasolina, int maximo_tanque, int minimo_tanque) {
-        super(generarMatricula(),CAPACIDAD_MAXIMA,gasolina, maximo_tanque, minimo_tanque);
+     private final Gasolinera gasolineraIzq;
+    private final Gasolinera gasolineraDch;
+    private final Puente puenteIzq;
+    private final Puente puenteDch;
 
+    public Camion(int gasolina, int maximo_tanque, int minimo_tanque, Gasolinera gasolineraIzq, Gasolinera gasolineraDch, Puente puenteIzq, Puente puenteDch) {
+        super(generarMatricula(), maximo_tanque, gasolina, maximo_tanque, minimo_tanque);
+        this.gasolineraIzq = gasolineraIzq;
+        this.gasolineraDch = gasolineraDch;
+        this.puenteIzq = puenteIzq;
+        this.puenteDch = puenteDch;
     }
 
     private static synchronized String generarMatricula() {
@@ -35,6 +40,7 @@ public class Camion extends Vehiculo {
         return matricula;
     }
 
+    @Override
     public void run() {
         try {
             while (true) {
@@ -52,7 +58,11 @@ public class Camion extends Vehiculo {
                 dirigirseAGasolinera(tramo);
 
                 // 5. Rellenar el depósito de la gasolinera
-                rellenarDepositoGasolinera(tramo);
+                if (tramo == 1) {
+                    gasolineraIzq.entrarGasolinera(this);
+                } else {
+                    gasolineraDch.entrarGasolinera(this);
+                }
 
                 // 6. Regreso a la ciudad
                 regresarACiudad();
@@ -65,7 +75,7 @@ public class Camion extends Vehiculo {
     private void cargarCombustibleEnCiudad() throws InterruptedException {
         System.out.println("Camion " + getMatricula() + " cargando combustible en la ciudad.");
         TimeUnit.SECONDS.sleep(3 + random.nextInt(3)); // Entre 3 y 5 segundos
-        this.cargaCombustible = CAPACIDAD_MAXIMA / 2 + random.nextInt(CAPACIDAD_MAXIMA / 2); // Entre el 50% y el 100%
+        setGasolina(getTANQUE_GASOLINA() / 2 + random.nextInt(getTANQUE_GASOLINA() / 2)); // Entre el 50% y el 100%
     }
 
     private void descansarEnParking() throws InterruptedException {
@@ -83,13 +93,15 @@ public class Camion extends Vehiculo {
         // Del Parking al Puente
         TimeUnit.SECONDS.sleep(3 + random.nextInt(3)); // Entre 3 y 5 segundos
 
+        // Cruzar el puente
+        if (tramo == 1) {
+            puenteIzq.cruzarIzquierda(this);
+        } else {
+            puenteDch.cruzarDerecha(this);
+        }
+
         // Del Puente a la Gasolinera
         TimeUnit.SECONDS.sleep(3 + random.nextInt(3)); // Entre 3 y 5 segundos
-    }
-
-    private void rellenarDepositoGasolinera(int tramo) {
-        System.out.println("Camion " + getMatricula() + " rellenando el depósito de la gasolinera " + (tramo == 1 ? "Izq" : "Dch"));
-        this.cargaCombustible = 0; // Descarga todo el combustible
     }
 
     private void regresarACiudad() throws InterruptedException {
@@ -106,6 +118,6 @@ public class Camion extends Vehiculo {
 
     @Override
     public String toString() {
-        return super.toString() + " Camion ";
+        return super.toString() + " Camion{" + "cargaCombustible=" + getGasolina() + '}';
     }
 }
