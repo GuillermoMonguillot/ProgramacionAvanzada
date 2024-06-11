@@ -1,74 +1,57 @@
-import java.util.Random;
-import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.LinkedBlockingQueue;
-import java.util.concurrent.Semaphore;
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
-/**
- *
- * @author Martin
- */
+import java.util.Random;
 
 public class Gasolinera {
 
-    private static final int NUM_SURTIDORES = 5;
-    private final Semaphore surtidores = new Semaphore(NUM_SURTIDORES, true);
-    private final BlockingQueue<Vehiculo> colaVehiculos = new LinkedBlockingQueue<>();
+    private int capacidad;
     private final Lock lock = new ReentrantLock();
-    private int capacidadCombustible;
+    private final Condition surtidorLibre = lock.newCondition();
+    private final int numSurtidores = 5;
+    private int surtidoresOcupados = 0;
+    private final Logger logger;
 
     public Gasolinera(int capacidadInicial) {
-        this.capacidadCombustible = capacidadInicial;
+        this.capacidad = capacidadInicial;
+        this.logger = Logger.getInstance();
     }
 
     public void entrarGasolinera(Vehiculo vehiculo) throws InterruptedException {
-        colaVehiculos.put(vehiculo);
-        surtidores.acquire();
-        Vehiculo vehiculoActual = colaVehiculos.take();
-
+        lock.lock();
         try {
-            if (vehiculoActual instanceof Coche) {
-                repostarCoche((Coche) vehiculoActual);
-            } else if (vehiculoActual instanceof Camion) {
-                recargarGasolinera((Camion) vehiculoActual);
+            while (surtidoresOcupados >= numSurtidores) {
+                surtidorLibre.await();
             }
+            surtidoresOcupados++;
+            int cantidadRepostar = Math.min(vehiculo.getTANQUE_GASOLINA() - vehiculo.getGasolina(), capacidad);
+            logger.log("Gasolinera", vehiculo.getMatricula() + " empieza a repostar " + cantidadRepostar + " litros.");
+            Thread.sleep(3000 + new Random().nextInt(3000)); // Entre 3 y 5 segundos
+            capacidad -= cantidadRepostar;
+            vehiculo.setGasolina(vehiculo.getGasolina() + cantidadRepostar);
+            logger.log("Gasolinera", vehiculo.getMatricula() + " ha repostado " + cantidadRepostar + " litros. Gasolina restante: " + capacidad + " litros.");
         } finally {
-            surtidores.release();
-        }
-    }
-
-    private void repostarCoche(Coche coche) throws InterruptedException {
-        lock.lock();
-        try {
-            int capacidadDeposito = coche.getTANQUE_GASOLINA() - coche.getGasolina();
-            int cantidadRepostar = Math.min(capacidadDeposito, capacidadCombustible);
-            cantidadRepostar = Math.min(cantidadRepostar, capacidadDeposito);
-            TimeUnit.SECONDS.sleep(3 + new Random().nextInt(3)); // Entre 3 y 5 segundos
-            coche.setGasolina(coche.getGasolina() + cantidadRepostar);
-            capacidadCombustible -= cantidadRepostar;
-            System.out.println("Coche " + coche.getMatricula() + " ha repostado " + cantidadRepostar + " litros. Capacidad restante en gasolinera: " + capacidadCombustible);
-        } finally {
+            surtidoresOcupados--;
+            surtidorLibre.signalAll();
             lock.unlock();
         }
     }
 
-    private void recargarGasolinera(Camion camion) throws InterruptedException {
+    public void reponerCombustible(Camion camion) throws InterruptedException {
         lock.lock();
         try {
-            int cantidadRecarga = camion.getGasolina();
-            TimeUnit.SECONDS.sleep(5 + new Random().nextInt(6)); // Entre 5 y 10 segundos
-            capacidadCombustible += cantidadRecarga;
+            logger.log("Gasolinera", camion.getMatricula() + " empieza a reponer combustible.");
+            Thread.sleep(5000 + new Random().nextInt(5000)); // Entre 5 y 10 segundos
+            capacidad += camion.getGasolina();
+            logger.log("Gasolinera", camion.getMatricula() + " ha repuesto " + camion.getGasolina() + " litros. Gasolina restante: " + capacidad + " litros.");
             camion.setGasolina(0);
-            System.out.println("Camion " + camion.getMatricula() + " ha recargado " + cantidadRecarga + " litros. Capacidad en gasolinera: " + capacidadCombustible);
         } finally {
+            surtidorLibre.signalAll();
             lock.unlock();
         }
+    }
+
+    public int getCapacidad() {
+        return capacidad;
     }
 }
-

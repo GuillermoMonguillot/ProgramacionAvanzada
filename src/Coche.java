@@ -4,44 +4,8 @@ import java.util.Map;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
-
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-/**
- *
- * @author Martin
- */
 public class Coche extends Vehiculo {
 
-    /*
-    private static final String[] TIPOS_NEUMATICOS = {"SOLEADO", "LLUVIA", "NIEVE"};
-    private String neumatico;
-
-    public Coche(String matricula, int TANQUE_GASOLINA, int gasolina, int maximo_tanque, int minimo_tanque, String[] neumaticos) {
-        super(matricula, TANQUE_GASOLINA, gasolina, maximo_tanque, minimo_tanque);
-        this.neumatico = seleccionarNeumaticoAlAzar();
-    }
-
-    private String seleccionarNeumaticoAlAzar() {
-        Random random = new Random();
-        return TIPOS_NEUMATICOS[random.nextInt(TIPOS_NEUMATICOS.length)];
-    }
-
-    public String getNeumaticos() {
-        return neumatico;
-    }
-
-    public void setNeumaticos(String neumatico) {
-        this.neumatico = neumatico;
-    }
-
-    @Override
-    public String toString() {
-        return super.toString() + "Coche{" + "neumatico=" + neumatico + '}';
-    }
-     */
     private static final String LETRAS = "BCDFGHJKLMNPQRSTVWXYZ";
     private static final Map<Integer, String> matriculasGeneradas = new HashMap<>();
     private static final String[] TIPOS_NEUMATICOS = {"SOLEADO", "LLUVIA", "NIEVE"};
@@ -56,6 +20,7 @@ public class Coche extends Vehiculo {
     private final TramoCronometrado tramo2;
     private final TramoCronometrado tramo3;
     private final TramoCronometrado tramo4;
+    private final Logger logger;
 
     public Coche(int TANQUE_GASOLINA, int gasolina, int maximo_tanque, int minimo_tanque, Gasolinera gasolineraIzq, Gasolinera gasolineraDch, Puente puenteIzq, Puente puenteDch, TramoCronometrado tramo1, TramoCronometrado tramo2, TramoCronometrado tramo3, TramoCronometrado tramo4) {
         super(generarMatricula(), TANQUE_GASOLINA, gasolina, maximo_tanque, minimo_tanque);
@@ -68,6 +33,8 @@ public class Coche extends Vehiculo {
         this.tramo2 = tramo2;
         this.tramo3 = tramo3;
         this.tramo4 = tramo4;
+        this.logger = Logger.getInstance();
+        logEvento("es creado");
     }
 
     private static synchronized String generarMatricula() {
@@ -101,6 +68,11 @@ public class Coche extends Vehiculo {
         this.neumatico = neumatico;
     }
 
+    private void logEvento(String evento) {
+        String mensaje = String.format("Coche %s (%d/%dL)(%s) %s", getMatricula(), getGasolina(), getTANQUE_GASOLINA(), getNeumatico(), evento);
+        logger.log("Coche", mensaje);
+    }
+
     @Override
     public void run() {
         try {
@@ -125,7 +97,7 @@ public class Coche extends Vehiculo {
     }
 
     private void realizarVerificacionesTecnicas() throws InterruptedException {
-        System.out.println("Coche " + getMatricula() + " realizando verificaciones técnicas.");
+        logEvento("realizando verificaciones técnicas");
         TimeUnit.SECONDS.sleep(3 + random.nextInt(3)); // Entre 3 y 5 segundos
     }
 
@@ -141,14 +113,16 @@ public class Coche extends Vehiculo {
     }
 
     private void dirigirseATramo(int tramo) throws InterruptedException {
-        System.out.println("Coche " + getMatricula() + " dirigiéndose al tramo " + tramo);
+        logEvento("dirigiéndose al tramo " + tramo);
         // Del Parking al Puente
         TimeUnit.SECONDS.sleep(3 + random.nextInt(3)); // Entre 3 y 5 segundos
 
         // Cruzar el puente
         if (tramo == 1 || tramo == 2) {
+            logEvento("esperando para cruzar el puente izquierdo");
             puenteIzq.cruzarIzquierda(this);
         } else {
+            logEvento("esperando para cruzar el puente derecho");
             puenteDch.cruzarDerecha(this);
         }
 
@@ -177,14 +151,14 @@ public class Coche extends Vehiculo {
     }
 
     private void completarTramo(int tramo) throws InterruptedException {
-        System.out.println("Coche " + getMatricula() + " compitiendo en el tramo " + tramo);
+        logEvento("compitiendo en el tramo " + tramo);
         long tiempoTotal = 0;
         for (int i = 1; i <= 4; i++) {
             long tiempoSector = 4000 + new Random().nextInt(7000); // Entre 4 y 10 segundos
             if (!getNeumatico().equals(TramoCronometrado.getClima())) {
                 tiempoSector *= 3; // Si las ruedas no son adecuadas, tarda el triple
             }
-            System.out.println("Coche " + getMatricula() + " recorriendo sector " + i + " del tramo " + tramo);
+            logEvento("accede al sector " + i + " del Tramo " + tramo + " (clima actual: " + TramoCronometrado.getClima() + ")");
             TimeUnit.MILLISECONDS.sleep(tiempoSector);
             tiempoTotal += tiempoSector;
 
@@ -199,12 +173,11 @@ public class Coche extends Vehiculo {
         LocalTime horaFinalizacion = LocalTime.now();
         String registro = String.format("Coche: %s, Hora: %s, Tramo: %d, Tiempo: %d segundos",
                 getMatricula(), horaFinalizacion, tramo, tiempoEnSegundos);
-        System.out.println(registro);
-        // Aquí se puede agregar el código para guardar el registro en una estructura interna
+        logEvento("completa el tramo " + tramo + " en " + tiempoEnSegundos + " segundos");
     }
 
     private void regresarAlParking() throws InterruptedException {
-        System.out.println("Coche " + getMatricula() + " regresando al parking.");
+        logEvento("regresando al parking");
         // Del Tramo al Puente
         TimeUnit.SECONDS.sleep(3 + random.nextInt(3)); // Entre 3 y 5 segundos
         // Del Puente al Parking
@@ -212,7 +185,7 @@ public class Coche extends Vehiculo {
     }
 
     private void descansarEnParking() throws InterruptedException {
-        System.out.println("Coche " + getMatricula() + " descansando en el parking.");
+        logEvento("descansando en el parking");
         TimeUnit.SECONDS.sleep(5 + random.nextInt(6)); // Entre 5 y 10 segundos
     }
 }

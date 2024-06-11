@@ -1,0 +1,808 @@
+2024-06-11 19:25:03 [Camion] Camion CC-0746 (791/1000L) es creado
+2024-06-11 19:25:03 [Coche] Coche 1001-DFZ (33/124L)(LLUVIA) es creado
+2024-06-11 19:25:03 [Coche] Coche 1001-DFZ (33/124L)(LLUVIA) realizando verificaciones técnicas
+2024-06-11 19:25:03 [Camion] Camion CC-0746 (791/1000L) cargando combustible en la ciudad
+2024-06-11 19:25:06 [Coche] Coche 9094-PSZ (42/115L)(SOLEADO) es creado
+2024-06-11 19:25:06 [Coche] Coche 9094-PSZ (42/115L)(SOLEADO) realizando verificaciones técnicas
+2024-06-11 19:25:07 [Camion] Camion CC-5873 (933/1000L) es creado
+2024-06-11 19:25:07 [Camion] Camion CC-5873 (933/1000L) cargando combustible en la ciudad
+2024-06-11 19:25:07 [Coche] Coche 1001-DFZ (33/124L)(LLUVIA) dirigiéndose al tramo 3
+2024-06-11 19:25:08 [Coche] Coche 7560-SJM (47/126L)(NIEVE) es creado
+2024-06-11 19:25:08 [Coche] Coche 7560-SJM (47/126L)(NIEVE) realizando verificaciones técnicas
+2024-06-11 19:25:09 [Camion] Camion CC-1998 (757/1000L) es creado
+2024-06-11 19:25:09 [Camion] Camion CC-1998 (757/1000L) cargando combustible en la ciudad
+2024-06-11 19:25:11 [Coche] Coche 9094-PSZ (42/115L)(SOLEADO) dirigiéndose al tramo 2
+2024-06-11 19:25:11 [Coche] Coche 1506-HYC (26/110L)(LLUVIA) es creado
+2024-06-11 19:25:11 [Coche] Coche 1506-HYC (26/110L)(LLUVIA) realizando verificaciones técnicas
+2024-06-11 19:25:12 [Coche] Coche 1001-DFZ (33/124L)(LLUVIA) esperando para cruzar el puente derecho
+2024-06-11 19:25:13 [Camion] Camion CC-2990 (960/1000L) es creado
+2024-06-11 19:25:13 [Camion] Camion CC-2990 (960/1000L) cargando combustible en la ciudad
+2024-06-11 19:25:13 [Coche] Coche 7560-SJM (47/126L)(NIEVE) dirigiéndose al tramo 2
+2024-06-11 19:25:13 [Coche] Coche 8531-SZY (33/96L)(SOLEADO) es creado
+2024-06-11 19:25:13 [Coche] Coche 8531-SZY (33/96L)(SOLEADO) realizando verificaciones técnicas
+2024-06-11 19:25:14 [Coche] Coche 4463-KQK (46/80L)(SOLEADO) es creado
+2024-06-11 19:25:14 [Coche] Coche 4463-KQK (46/80L)(SOLEADO) realizando verificaciones técnicas
+2024-06-11 19:25:15 [Camion] Camion CC-0746 (592/1000L) descansando en el parking
+2024-06-11 19:25:15 [Coche] Coche 9094-PSZ (42/115L)(SOLEADO) esperando para cruzar el puente izquierdo
+2024-06-11 19:25:15 [Camion] Camion CC-3462 (822/1000L) es creado
+2024-06-11 19:25:15 [Camion] Camion CC-3462 (822/1000L) cargando combustible en la ciudad
+2024-06-11 19:25:16 [Coche] Coche 7560-SJM (47/126L)(NIEVE) esperando para cruzar el puente izquierdo
+2024-06-11 19:25:16 [Coche] Coche 1506-HYC (26/110L)(LLUVIA) dirigiéndose al tramo 1
+2024-06-11 19:25:16 [Coche] Coche 0627-WNF (49/106L)(LLUVIA) es creado
+2024-06-11 19:25:16 [Coche] Coche 0627-WNF (49/106L)(LLUVIA) realizando verificaciones técnicas
+2024-06-11 19:25:17 [Camion] Camion CC-5873 (994/1000L) descansando en el parking
+2024-06-11 19:25:17 [Coche] Coche 4463-KQK (46/80L)(SOLEADO) dirigiéndose al tramo 4
+2024-06-11 19:25:18 [Camion] Camion CC-2516 (942/1000L) es creado
+2024-06-11 19:25:18 [Coche] Coche 8531-SZY (33/96L)(SOLEADO) dirigiéndose al tramo 3
+2024-06-11 19:25:18 [Camion] Camion CC-2516 (942/1000L) cargando combustible en la ciudad
+2024-06-11 19:25:18 [Coche] Coche 7089-XZM (27/87L)(LLUVIA) es creado
+2024-06-11 19:25:18 [Coche] Coche 7089-XZM (27/87L)(LLUVIA) realizando verificaciones técnicas
+2024-06-11 19:25:20 [Camion] Camion CC-0746 (592/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:25:21 [Coche] Coche 8531-SZY (33/96L)(SOLEADO) esperando para cruzar el puente derecho
+2024-06-11 19:25:21 [Camion] Camion CC-3658 (748/1000L) es creado
+2024-06-11 19:25:21 [Coche] Coche 1506-HYC (26/110L)(LLUVIA) esperando para cruzar el puente izquierdo
+2024-06-11 19:25:21 [Camion] Camion CC-3658 (748/1000L) cargando combustible en la ciudad
+2024-06-11 19:25:21 [Coche] Coche 0627-WNF (49/106L)(LLUVIA) dirigiéndose al tramo 4
+2024-06-11 19:25:21 [Coche] Coche 9262-XPY (29/128L)(SOLEADO) es creado
+2024-06-11 19:25:21 [Coche] Coche 7089-XZM (27/87L)(LLUVIA) dirigiéndose al tramo 4
+2024-06-11 19:25:21 [Coche] Coche 9262-XPY (29/128L)(SOLEADO) realizando verificaciones técnicas
+2024-06-11 19:25:21 [Coche] Coche 4463-KQK (46/80L)(SOLEADO) esperando para cruzar el puente derecho
+2024-06-11 19:25:22 [Camion] Camion CC-5873 (994/1000L) dirigiéndose a la gasolinera Dch
+2024-06-11 19:25:22 [Coche] Coche 9038-NPH (31/95L)(LLUVIA) es creado
+2024-06-11 19:25:22 [Coche] Coche 9038-NPH (31/95L)(LLUVIA) realizando verificaciones técnicas
+2024-06-11 19:25:23 [Camion] Camion CC-0746 (592/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:25:23 [Camion] Camion CC-1998 (577/1000L) descansando en el parking
+2024-06-11 19:25:23 [Coche] Coche 4266-SKK (34/114L)(NIEVE) es creado
+2024-06-11 19:25:23 [Coche] Coche 4266-SKK (34/114L)(NIEVE) realizando verificaciones técnicas
+2024-06-11 19:25:24 [Coche] Coche 7089-XZM (27/87L)(LLUVIA) esperando para cruzar el puente derecho
+2024-06-11 19:25:24 [Coche] Coche 9262-XPY (29/128L)(SOLEADO) dirigiéndose al tramo 1
+2024-06-11 19:25:25 [Camion] Camion CC-6789 (879/1000L) es creado
+2024-06-11 19:25:25 [Camion] Camion CC-6789 (879/1000L) cargando combustible en la ciudad
+2024-06-11 19:25:26 [Camion] Camion CC-2990 (894/1000L) descansando en el parking
+2024-06-11 19:25:26 [Camion] Camion CC-5873 (994/1000L) esperando para cruzar el puente derecho
+2024-06-11 19:25:26 [Coche] Coche 0627-WNF (49/106L)(LLUVIA) esperando para cruzar el puente derecho
+2024-06-11 19:25:26 [Coche] Coche 9038-NPH (31/95L)(LLUVIA) dirigiéndose al tramo 1
+2024-06-11 19:25:26 [Coche] Coche 8162-HFW (41/82L)(LLUVIA) es creado
+2024-06-11 19:25:26 [Coche] Coche 8162-HFW (41/82L)(LLUVIA) realizando verificaciones técnicas
+2024-06-11 19:25:27 [Camion] Camion CC-1998 (577/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:25:27 [Camion] Camion CC-3462 (815/1000L) descansando en el parking
+2024-06-11 19:25:27 [Camion] Camion CC-6382 (856/1000L) es creado
+2024-06-11 19:25:27 [Camion] Camion CC-6382 (856/1000L) cargando combustible en la ciudad
+2024-06-11 19:25:27 [Coche] Coche 4266-SKK (34/114L)(NIEVE) dirigiéndose al tramo 1
+2024-06-11 19:25:29 [Camion] Camion CC-2516 (729/1000L) descansando en el parking
+2024-06-11 19:25:29 [Coche] Coche 9038-NPH (31/95L)(LLUVIA) esperando para cruzar el puente izquierdo
+2024-06-11 19:25:29 [Coche] Coche 9262-XPY (29/128L)(SOLEADO) esperando para cruzar el puente izquierdo
+2024-06-11 19:25:29 [Coche] Coche 4457-CNC (40/130L)(LLUVIA) es creado
+2024-06-11 19:25:29 [Coche] Coche 4457-CNC (40/130L)(LLUVIA) realizando verificaciones técnicas
+2024-06-11 19:25:30 [Camion] Camion CC-2990 (894/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:25:30 [Camion] Camion CC-3462 (815/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:25:30 [Coche] Coche 3345-CCW (32/114L)(LLUVIA) es creado
+2024-06-11 19:25:30 [Camion] Camion CC-9315 (604/1000L) es creado
+2024-06-11 19:25:30 [Coche] Coche 3345-CCW (32/114L)(LLUVIA) realizando verificaciones técnicas
+2024-06-11 19:25:30 [Camion] Camion CC-9315 (604/1000L) cargando combustible en la ciudad
+2024-06-11 19:25:31 [Coche] Coche 8162-HFW (41/82L)(LLUVIA) dirigiéndose al tramo 2
+2024-06-11 19:25:31 [Coche] Coche 9532-MQT (41/89L)(NIEVE) es creado
+2024-06-11 19:25:31 [Coche] Coche 9532-MQT (41/89L)(NIEVE) realizando verificaciones técnicas
+2024-06-11 19:25:32 [Camion] Camion CC-1998 (577/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:25:32 [Camion] Camion CC-2516 (729/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:25:32 [Coche] Coche 4266-SKK (34/114L)(NIEVE) esperando para cruzar el puente izquierdo
+2024-06-11 19:25:33 [Coche] Coche 8551-QKX (39/82L)(NIEVE) es creado
+2024-06-11 19:25:33 [Coche] Coche 8551-QKX (39/82L)(NIEVE) realizando verificaciones técnicas
+2024-06-11 19:25:34 [Camion] Camion CC-3462 (815/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:25:34 [Coche] Coche 3345-CCW (32/114L)(LLUVIA) dirigiéndose al tramo 3
+2024-06-11 19:25:34 [Camion] Camion CC-5530 (559/1000L) es creado
+2024-06-11 19:25:34 [Coche] Coche 4457-CNC (40/130L)(LLUVIA) dirigiéndose al tramo 4
+2024-06-11 19:25:34 [Camion] Camion CC-5530 (559/1000L) cargando combustible en la ciudad
+2024-06-11 19:25:34 [Coche] Coche 9532-MQT (41/89L)(NIEVE) dirigiéndose al tramo 2
+2024-06-11 19:25:35 [Camion] Camion CC-2990 (894/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:25:35 [Puente] CC-2990 está esperando para cruzar hacia la izquierda.
+2024-06-11 19:25:35 [Camion] Camion CC-3658 (889/1000L) descansando en el parking
+2024-06-11 19:25:36 [Camion] Camion CC-6789 (633/1000L) descansando en el parking
+2024-06-11 19:25:36 [Coche] Coche 8162-HFW (41/82L)(LLUVIA) esperando para cruzar el puente izquierdo
+2024-06-11 19:25:36 [Puente] 8162-HFW está esperando para cruzar hacia la izquierda.
+2024-06-11 19:25:36 [Coche] Coche 8926-ZMD (28/113L)(LLUVIA) es creado
+2024-06-11 19:25:36 [Coche] Coche 8926-ZMD (28/113L)(LLUVIA) realizando verificaciones técnicas
+2024-06-11 19:25:37 [Camion] Camion CC-2516 (729/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:25:37 [Puente] CC-2516 está esperando para cruzar hacia la izquierda.
+2024-06-11 19:25:37 [Camion] Camion CC-4364 (659/1000L) es creado
+2024-06-11 19:25:37 [Camion] Camion CC-4364 (659/1000L) cargando combustible en la ciudad
+2024-06-11 19:25:38 [Coche] Coche 3345-CCW (32/114L)(LLUVIA) esperando para cruzar el puente derecho
+2024-06-11 19:25:38 [Coche] Coche 8551-QKX (39/82L)(NIEVE) dirigiéndose al tramo 3
+2024-06-11 19:25:39 [Coche] Coche 4457-CNC (40/130L)(LLUVIA) esperando para cruzar el puente derecho
+2024-06-11 19:25:39 [Coche] Coche 9532-MQT (41/89L)(NIEVE) esperando para cruzar el puente izquierdo
+2024-06-11 19:25:39 [Camion] Camion CC-6700 (733/1000L) es creado
+2024-06-11 19:25:39 [Puente] 9532-MQT está esperando para cruzar hacia la izquierda.
+2024-06-11 19:25:39 [Camion] Camion CC-6700 (733/1000L) cargando combustible en la ciudad
+2024-06-11 19:25:39 [Coche] Coche 9366-RJF (30/104L)(NIEVE) es creado
+2024-06-11 19:25:39 [Coche] Coche 9366-RJF (30/104L)(NIEVE) realizando verificaciones técnicas
+2024-06-11 19:25:40 [Camion] Camion CC-6382 (927/1000L) descansando en el parking
+2024-06-11 19:25:40 [Camion] Camion CC-3658 (889/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:25:40 [Coche] Coche 8926-ZMD (28/113L)(LLUVIA) dirigiéndose al tramo 2
+2024-06-11 19:25:41 [Camion] Camion CC-6789 (633/1000L) dirigiéndose a la gasolinera Dch
+2024-06-11 19:25:41 [Coche] Coche 8137-XNT (44/127L)(SOLEADO) es creado
+2024-06-11 19:25:41 [Coche] Coche 8137-XNT (44/127L)(SOLEADO) realizando verificaciones técnicas
+2024-06-11 19:25:42 [Camion] Camion CC-7194 (506/1000L) es creado
+2024-06-11 19:25:42 [Camion] Camion CC-7194 (506/1000L) cargando combustible en la ciudad
+2024-06-11 19:25:42 [Coche] Coche 9366-RJF (30/104L)(NIEVE) dirigiéndose al tramo 2
+2024-06-11 19:25:43 [Camion] Camion CC-9315 (912/1000L) descansando en el parking
+2024-06-11 19:25:43 [Camion] Camion CC-5530 (946/1000L) descansando en el parking
+2024-06-11 19:25:43 [Camion] Camion CC-6382 (927/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:25:43 [Coche] Coche 8551-QKX (39/82L)(NIEVE) esperando para cruzar el puente derecho
+2024-06-11 19:25:43 [Coche] Coche 8926-ZMD (28/113L)(LLUVIA) esperando para cruzar el puente izquierdo
+2024-06-11 19:25:43 [Puente] 8926-ZMD está esperando para cruzar hacia la izquierda.
+2024-06-11 19:25:44 [Camion] Camion CC-6789 (633/1000L) esperando para cruzar el puente derecho
+2024-06-11 19:25:44 [Coche] Coche 8137-XNT (44/127L)(SOLEADO) dirigiéndose al tramo 3
+2024-06-11 19:25:44 [Coche] Coche 0607-KFC (49/116L)(NIEVE) es creado
+2024-06-11 19:25:44 [Coche] Coche 0607-KFC (49/116L)(NIEVE) realizando verificaciones técnicas
+2024-06-11 19:25:45 [Camion] Camion CC-3658 (889/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:25:45 [Puente] CC-3658 está esperando para cruzar hacia la izquierda.
+2024-06-11 19:25:45 [Camion] Camion CC-7158 (889/1000L) es creado
+2024-06-11 19:25:45 [Camion] Camion CC-7158 (889/1000L) cargando combustible en la ciudad
+2024-06-11 19:25:45 [Coche] Coche 4673-SCN (48/115L)(NIEVE) es creado
+2024-06-11 19:25:45 [Coche] Coche 4673-SCN (48/115L)(NIEVE) realizando verificaciones técnicas
+2024-06-11 19:25:46 [Camion] Camion CC-4364 (857/1000L) descansando en el parking
+2024-06-11 19:25:47 [Camion] Camion CC-6382 (927/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:25:47 [Puente] CC-6382 está esperando para cruzar hacia la izquierda.
+2024-06-11 19:25:47 [Coche] Coche 9366-RJF (30/104L)(NIEVE) esperando para cruzar el puente izquierdo
+2024-06-11 19:25:47 [Puente] 9366-RJF está esperando para cruzar hacia la izquierda.
+2024-06-11 19:25:47 [Camion] Camion CC-4315 (824/1000L) es creado
+2024-06-11 19:25:47 [Camion] Camion CC-4315 (824/1000L) cargando combustible en la ciudad
+2024-06-11 19:25:48 [Camion] Camion CC-9315 (912/1000L) dirigiéndose a la gasolinera Dch
+2024-06-11 19:25:48 [Camion] Camion CC-5530 (946/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:25:48 [Coche] Coche 4673-SCN (48/115L)(NIEVE) dirigiéndose al tramo 3
+2024-06-11 19:25:48 [Coche] Coche 9189-VLV (29/75L)(SOLEADO) es creado
+2024-06-11 19:25:48 [Coche] Coche 9189-VLV (29/75L)(SOLEADO) realizando verificaciones técnicas
+2024-06-11 19:25:49 [Coche] Coche 0607-KFC (49/116L)(NIEVE) dirigiéndose al tramo 3
+2024-06-11 19:25:49 [Camion] Camion CC-9730 (699/1000L) es creado
+2024-06-11 19:25:49 [Coche] Coche 8137-XNT (44/127L)(SOLEADO) esperando para cruzar el puente derecho
+2024-06-11 19:25:49 [Camion] Camion CC-9730 (699/1000L) cargando combustible en la ciudad
+2024-06-11 19:25:49 [Coche] Coche 7274-JSF (43/87L)(LLUVIA) es creado
+2024-06-11 19:25:49 [Coche] Coche 7274-JSF (43/87L)(LLUVIA) realizando verificaciones técnicas
+2024-06-11 19:25:50 [Camion] Camion CC-4364 (857/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:25:51 [Camion] Camion CC-5530 (946/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:25:51 [Puente] CC-5530 está esperando para cruzar hacia la izquierda.
+2024-06-11 19:25:51 [Camion] Camion CC-7194 (906/1000L) descansando en el parking
+2024-06-11 19:25:51 [Camion] Camion CC-2429 (902/1000L) es creado
+2024-06-11 19:25:51 [Camion] Camion CC-2429 (902/1000L) cargando combustible en la ciudad
+2024-06-11 19:25:51 [Coche] Coche 9189-VLV (29/75L)(SOLEADO) dirigiéndose al tramo 3
+2024-06-11 19:25:51 [Coche] Coche 1651-RRB (30/130L)(SOLEADO) es creado
+2024-06-11 19:25:51 [Coche] Coche 1651-RRB (30/130L)(SOLEADO) realizando verificaciones técnicas
+2024-06-11 19:25:52 [Camion] Camion CC-9315 (912/1000L) esperando para cruzar el puente derecho
+2024-06-11 19:25:52 [Camion] Camion CC-6700 (959/1000L) descansando en el parking
+2024-06-11 19:25:53 [Camion] Camion CC-6629 (922/1000L) es creado
+2024-06-11 19:25:53 [Camion] Camion CC-6629 (922/1000L) cargando combustible en la ciudad
+2024-06-11 19:25:53 [Coche] Coche 4673-SCN (48/115L)(NIEVE) esperando para cruzar el puente derecho
+2024-06-11 19:25:53 [Coche] Coche 7274-JSF (43/87L)(LLUVIA) dirigiéndose al tramo 1
+2024-06-11 19:25:54 [Coche] Coche 0607-KFC (49/116L)(NIEVE) esperando para cruzar el puente derecho
+2024-06-11 19:25:54 [Coche] Coche 9189-VLV (29/75L)(SOLEADO) esperando para cruzar el puente derecho
+2024-06-11 19:25:54 [Coche] Coche 6448-YSW (32/119L)(SOLEADO) es creado
+2024-06-11 19:25:54 [Coche] Coche 6448-YSW (32/119L)(SOLEADO) realizando verificaciones técnicas
+2024-06-11 19:25:55 [Camion] Camion CC-4364 (857/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:25:55 [Camion] Camion CC-6700 (959/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:25:55 [Puente] CC-4364 está esperando para cruzar hacia la izquierda.
+2024-06-11 19:25:55 [Puente] Grupo de 10 vehículos cruzando hacia la izquierda.
+2024-06-11 19:25:55 [Camion] Camion CC-7194 (906/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:25:55 [Camion] Camion CC-8323 (934/1000L) es creado
+2024-06-11 19:25:55 [Camion] Camion CC-8323 (934/1000L) cargando combustible en la ciudad
+2024-06-11 19:25:55 [Coche] Coche 1651-RRB (30/130L)(SOLEADO) dirigiéndose al tramo 3
+2024-06-11 19:25:56 [Coche] Coche 7274-JSF (43/87L)(LLUVIA) esperando para cruzar el puente izquierdo
+2024-06-11 19:25:56 [Coche] Coche 4910-SBZ (43/108L)(SOLEADO) es creado
+2024-06-11 19:25:56 [Puente] 7274-JSF está esperando para cruzar hacia la izquierda.
+2024-06-11 19:25:56 [Coche] Coche 4910-SBZ (43/108L)(SOLEADO) realizando verificaciones técnicas
+2024-06-11 19:25:57 [Camion] Camion CC-7158 (959/1000L) descansando en el parking
+2024-06-11 19:25:57 [Coche] Coche 6448-YSW (32/119L)(SOLEADO) dirigiéndose al tramo 2
+2024-06-11 19:25:58 [Camion] Camion CC-7194 (906/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:25:58 [Puente] CC-7194 está esperando para cruzar hacia la izquierda.
+2024-06-11 19:25:58 [Camion] Camion CC-4315 (940/1000L) descansando en el parking
+2024-06-11 19:25:58 [Coche] Coche 6650-DNT (29/116L)(LLUVIA) es creado
+2024-06-11 19:25:58 [Coche] Coche 6650-DNT (29/116L)(LLUVIA) realizando verificaciones técnicas
+2024-06-11 19:25:59 [Camion] Camion CC-9730 (653/1000L) descansando en el parking
+2024-06-11 19:25:59 [Camion] Camion CC-1402 (515/1000L) es creado
+2024-06-11 19:25:59 [Camion] Camion CC-1402 (515/1000L) cargando combustible en la ciudad
+2024-06-11 19:25:59 [Coche] Coche 1651-RRB (30/130L)(SOLEADO) esperando para cruzar el puente derecho
+2024-06-11 19:25:59 [Coche] Coche 8559-KLY (50/105L)(LLUVIA) es creado
+2024-06-11 19:25:59 [Coche] Coche 8559-KLY (50/105L)(LLUVIA) realizando verificaciones técnicas
+2024-06-11 19:26:00 [Camion] Camion CC-6700 (959/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:26:00 [Puente] CC-6700 está esperando para cruzar hacia la izquierda.
+2024-06-11 19:26:00 [Puente] CC-2516 ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:00 [Puente] CC-3658 ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:00 [Puente] 9366-RJF ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:00 [Puente] 8926-ZMD ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:00 [Puente] CC-5530 ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:00 [Puente] CC-6382 ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:00 [Puente] 8162-HFW ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:00 [Puente] 9532-MQT ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:00 [Puente] CC-4364 ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:00 [Puente] CC-2990 ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:00 [Coche] Coche 4910-SBZ (43/108L)(SOLEADO) dirigiéndose al tramo 2
+2024-06-11 19:26:01 [Camion] Camion CC-7158 (959/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:26:01 [Coche] Coche 6448-YSW (32/119L)(SOLEADO) esperando para cruzar el puente izquierdo
+2024-06-11 19:26:01 [Puente] 6448-YSW está esperando para cruzar hacia la izquierda.
+2024-06-11 19:26:01 [Coche] Coche 6650-DNT (29/116L)(LLUVIA) dirigiéndose al tramo 2
+2024-06-11 19:26:01 [Coche] Coche 1320-NKF (37/120L)(NIEVE) es creado
+2024-06-11 19:26:01 [Coche] Coche 1320-NKF (37/120L)(NIEVE) realizando verificaciones técnicas
+2024-06-11 19:26:03 [Camion] Camion CC-4315 (940/1000L) dirigiéndose a la gasolinera Dch
+2024-06-11 19:26:03 [Gasolinera] 9532-MQT empieza a repostar 48 litros.
+2024-06-11 19:26:03 [Camion] Camion CC-4987 (773/1000L) es creado
+2024-06-11 19:26:03 [Camion] Camion CC-4987 (773/1000L) cargando combustible en la ciudad
+2024-06-11 19:26:03 [Coche] Coche 8559-KLY (50/105L)(LLUVIA) dirigiéndose al tramo 3
+2024-06-11 19:26:04 [Camion] Camion CC-9730 (653/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:26:04 [Camion] Camion CC-2429 (956/1000L) descansando en el parking
+2024-06-11 19:26:04 [Coche] Coche 4910-SBZ (43/108L)(SOLEADO) esperando para cruzar el puente izquierdo
+2024-06-11 19:26:04 [Puente] 4910-SBZ está esperando para cruzar hacia la izquierda.
+2024-06-11 19:26:04 [Coche] Coche 6650-DNT (29/116L)(LLUVIA) esperando para cruzar el puente izquierdo
+2024-06-11 19:26:04 [Coche] Coche 0878-SFZ (29/92L)(NIEVE) es creado
+2024-06-11 19:26:04 [Puente] 6650-DNT está esperando para cruzar hacia la izquierda.
+2024-06-11 19:26:04 [Coche] Coche 0878-SFZ (29/92L)(NIEVE) realizando verificaciones técnicas
+2024-06-11 19:26:05 [Camion] Camion CC-6629 (870/1000L) descansando en el parking
+2024-06-11 19:26:05 [Camion] Camion CC-0284 (523/1000L) es creado
+2024-06-11 19:26:05 [Camion] Camion CC-0284 (523/1000L) cargando combustible en la ciudad
+2024-06-11 19:26:05 [Coche] Coche 1320-NKF (37/120L)(NIEVE) dirigiéndose al tramo 1
+2024-06-11 19:26:06 [Camion] Camion CC-7158 (959/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:26:06 [Camion] Camion CC-4315 (940/1000L) esperando para cruzar el puente derecho
+2024-06-11 19:26:06 [Puente] CC-7158 está esperando para cruzar hacia la izquierda.
+2024-06-11 19:26:06 [Camion] Camion CC-8323 (504/1000L) descansando en el parking
+2024-06-11 19:26:06 [Gasolinera] 9532-MQT ha repostado 48 litros. Gasolina restante: 452 litros.
+2024-06-11 19:26:06 [Gasolinera] CC-3658 empieza a repostar 111 litros.
+2024-06-11 19:26:07 [Camion] Camion CC-2429 (956/1000L) dirigiéndose a la gasolinera Dch
+2024-06-11 19:26:07 [Coche] Coche 2950-NZZ (40/75L)(LLUVIA) es creado
+2024-06-11 19:26:07 [Coche] Coche 2950-NZZ (40/75L)(LLUVIA) realizando verificaciones técnicas
+2024-06-11 19:26:08 [Camion] Camion CC-7832 (946/1000L) es creado
+2024-06-11 19:26:08 [Camion] Camion CC-7832 (946/1000L) cargando combustible en la ciudad
+2024-06-11 19:26:08 [Coche] Coche 8559-KLY (50/105L)(LLUVIA) esperando para cruzar el puente derecho
+2024-06-11 19:26:09 [Camion] Camion CC-6629 (870/1000L) dirigiéndose a la gasolinera Dch
+2024-06-11 19:26:09 [Camion] Camion CC-9730 (653/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:26:09 [Puente] CC-9730 está esperando para cruzar hacia la izquierda.
+2024-06-11 19:26:09 [Coche] Coche 0878-SFZ (29/92L)(NIEVE) dirigiéndose al tramo 1
+2024-06-11 19:26:09 [Coche] Coche 1320-NKF (37/120L)(NIEVE) esperando para cruzar el puente izquierdo
+2024-06-11 19:26:09 [Puente] 1320-NKF está esperando para cruzar hacia la izquierda.
+2024-06-11 19:26:10 [Gasolinera] CC-3658 ha repostado 111 litros. Gasolina restante: 341 litros.
+2024-06-11 19:26:10 [Camion] Camion CC-3658 (1000/1000L) regresando a la ciudad
+2024-06-11 19:26:10 [Gasolinera] CC-5530 empieza a repostar 54 litros.
+2024-06-11 19:26:10 [Camion] Camion CC-1402 (508/1000L) descansando en el parking
+2024-06-11 19:26:10 [Camion] Camion CC-8323 (504/1000L) dirigiéndose a la gasolinera Dch
+2024-06-11 19:26:10 [Coche] Coche 2950-NZZ (40/75L)(LLUVIA) dirigiéndose al tramo 1
+2024-06-11 19:26:10 [Coche] Coche 1244-DYM (26/113L)(NIEVE) es creado
+2024-06-11 19:26:10 [Coche] Coche 1244-DYM (26/113L)(NIEVE) realizando verificaciones técnicas
+2024-06-11 19:26:11 [Coche] Coche 5339-PSL (38/115L)(LLUVIA) es creado
+2024-06-11 19:26:11 [Coche] Coche 5339-PSL (38/115L)(LLUVIA) realizando verificaciones técnicas
+2024-06-11 19:26:12 [Camion] Camion CC-2429 (956/1000L) esperando para cruzar el puente derecho
+2024-06-11 19:26:12 [Camion] Camion CC-6294 (803/1000L) es creado
+2024-06-11 19:26:12 [Camion] Camion CC-6294 (803/1000L) cargando combustible en la ciudad
+2024-06-11 19:26:13 [Camion] Camion CC-4987 (723/1000L) descansando en el parking
+2024-06-11 19:26:13 [Camion] Camion CC-8323 (504/1000L) esperando para cruzar el puente derecho
+2024-06-11 19:26:13 [Coche] Coche 8006-TTZ (37/97L)(LLUVIA) es creado
+2024-06-11 19:26:13 [Coche] Coche 1244-DYM (26/113L)(NIEVE) dirigiéndose al tramo 2
+2024-06-11 19:26:13 [Coche] Coche 8006-TTZ (37/97L)(LLUVIA) realizando verificaciones técnicas
+2024-06-11 19:26:13 [Gasolinera] CC-5530 ha repostado 54 litros. Gasolina restante: 287 litros.
+2024-06-11 19:26:13 [Camion] Camion CC-5530 (1000/1000L) regresando a la ciudad
+2024-06-11 19:26:13 [Gasolinera] 9366-RJF empieza a repostar 74 litros.
+2024-06-11 19:26:14 [Camion] Camion CC-6629 (870/1000L) esperando para cruzar el puente derecho
+2024-06-11 19:26:14 [Camion] Camion CC-4025 (648/1000L) es creado
+2024-06-11 19:26:14 [Camion] Camion CC-4025 (648/1000L) cargando combustible en la ciudad
+2024-06-11 19:26:14 [Coche] Coche 2950-NZZ (40/75L)(LLUVIA) esperando para cruzar el puente izquierdo
+2024-06-11 19:26:14 [Puente] 2950-NZZ está esperando para cruzar hacia la izquierda.
+2024-06-11 19:26:14 [Puente] Grupo de 10 vehículos cruzando hacia la izquierda.
+2024-06-11 19:26:14 [Coche] Coche 0878-SFZ (29/92L)(NIEVE) esperando para cruzar el puente izquierdo
+2024-06-11 19:26:14 [Puente] 0878-SFZ está esperando para cruzar hacia la izquierda.
+2024-06-11 19:26:15 [Camion] Camion CC-1402 (508/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:26:15 [Camion] Camion CC-0284 (988/1000L) descansando en el parking
+2024-06-11 19:26:15 [Coche] Coche 2227-TLC (34/121L)(NIEVE) es creado
+2024-06-11 19:26:15 [Coche] Coche 5339-PSL (38/115L)(LLUVIA) dirigiéndose al tramo 3
+2024-06-11 19:26:15 [Coche] Coche 2227-TLC (34/121L)(NIEVE) realizando verificaciones técnicas
+2024-06-11 19:26:16 [Camion] Camion CC-4987 (723/1000L) dirigiéndose a la gasolinera Dch
+2024-06-11 19:26:16 [Coche] Coche 8006-TTZ (37/97L)(LLUVIA) dirigiéndose al tramo 1
+2024-06-11 19:26:16 [Coche] Coche 5863-DQP (32/120L)(SOLEADO) es creado
+2024-06-11 19:26:16 [Coche] Coche 5863-DQP (32/120L)(SOLEADO) realizando verificaciones técnicas
+2024-06-11 19:26:17 [Coche] Coche 8835-KBF (49/86L)(SOLEADO) es creado
+2024-06-11 19:26:17 [Coche] Coche 8835-KBF (49/86L)(SOLEADO) realizando verificaciones técnicas
+2024-06-11 19:26:18 [Camion] Camion CC-3658 (1000/1000L) descansando en el parking
+2024-06-11 19:26:18 [Camion] Camion CC-7832 (919/1000L) descansando en el parking
+2024-06-11 19:26:18 [Camion] Camion CC-3746 (545/1000L) es creado
+2024-06-11 19:26:18 [Camion] Camion CC-3746 (545/1000L) cargando combustible en la ciudad
+2024-06-11 19:26:18 [Coche] Coche 1244-DYM (26/113L)(NIEVE) esperando para cruzar el puente izquierdo
+2024-06-11 19:26:18 [Puente] 1244-DYM está esperando para cruzar hacia la izquierda.
+2024-06-11 19:26:18 [Coche] Coche 2227-TLC (34/121L)(NIEVE) dirigiéndose al tramo 3
+2024-06-11 19:26:18 [Gasolinera] 9366-RJF ha repostado 74 litros. Gasolina restante: 213 litros.
+2024-06-11 19:26:18 [Gasolinera] CC-2990 empieza a repostar 106 litros.
+2024-06-11 19:26:19 [Puente] 2950-NZZ ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:19 [Puente] 1320-NKF ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:19 [Puente] CC-9730 ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:19 [Puente] CC-7158 ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:19 [Puente] 6650-DNT ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:19 [Puente] 4910-SBZ ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:19 [Puente] 6448-YSW ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:19 [Puente] CC-6700 ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:19 [Puente] CC-7194 ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:19 [Puente] 7274-JSF ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:19 [Camion] Camion CC-5530 (1000/1000L) descansando en el parking
+2024-06-11 19:26:20 [Camion] Camion CC-1402 (508/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:26:20 [Puente] CC-1402 está esperando para cruzar hacia la izquierda.
+2024-06-11 19:26:20 [Camion] Camion CC-0284 (988/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:26:20 [Camion] Camion CC-2643 (908/1000L) es creado
+2024-06-11 19:26:20 [Camion] Camion CC-2643 (908/1000L) cargando combustible en la ciudad
+2024-06-11 19:26:20 [Coche] Coche 5339-PSL (38/115L)(LLUVIA) esperando para cruzar el puente derecho
+2024-06-11 19:26:20 [Coche] Coche 6134-LTL (40/114L)(SOLEADO) es creado
+2024-06-11 19:26:20 [Coche] Coche 6134-LTL (40/114L)(SOLEADO) realizando verificaciones técnicas
+2024-06-11 19:26:20 [Coche] Coche 8835-KBF (49/86L)(SOLEADO) dirigiéndose al tramo 4
+2024-06-11 19:26:21 [Camion] Camion CC-4987 (723/1000L) esperando para cruzar el puente derecho
+2024-06-11 19:26:21 [Coche] Coche 8006-TTZ (37/97L)(LLUVIA) esperando para cruzar el puente izquierdo
+2024-06-11 19:26:21 [Puente] 8006-TTZ está esperando para cruzar hacia la izquierda.
+2024-06-11 19:26:21 [Coche] Coche 5863-DQP (32/120L)(SOLEADO) dirigiéndose al tramo 3
+2024-06-11 19:26:21 [Coche] Coche 9406-BFS (47/92L)(SOLEADO) es creado
+2024-06-11 19:26:21 [Coche] Coche 9406-BFS (47/92L)(SOLEADO) realizando verificaciones técnicas
+2024-06-11 19:26:22 [Coche] Coche 2227-TLC (34/121L)(NIEVE) esperando para cruzar el puente derecho
+2024-06-11 19:26:22 [Coche] Coche 7596-VJQ (42/91L)(SOLEADO) es creado
+2024-06-11 19:26:22 [Coche] Coche 7596-VJQ (42/91L)(SOLEADO) realizando verificaciones técnicas
+2024-06-11 19:26:23 [Camion] Camion CC-6294 (711/1000L) descansando en el parking
+2024-06-11 19:26:23 [Camion] Camion CC-7832 (919/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:26:23 [Camion] Camion CC-0875 (740/1000L) es creado
+2024-06-11 19:26:23 [Camion] Camion CC-0875 (740/1000L) cargando combustible en la ciudad
+2024-06-11 19:26:23 [Coche] Coche 8835-KBF (49/86L)(SOLEADO) esperando para cruzar el puente derecho
+2024-06-11 19:26:23 [Coche] Coche 6134-LTL (40/114L)(SOLEADO) dirigiéndose al tramo 1
+2024-06-11 19:26:23 [Gasolinera] CC-2990 ha repostado 106 litros. Gasolina restante: 107 litros.
+2024-06-11 19:26:23 [Camion] Camion CC-2990 (1000/1000L) regresando a la ciudad
+2024-06-11 19:26:23 [Gasolinera] CC-2516 empieza a repostar 107 litros.
+2024-06-11 19:26:24 [Camion] Camion CC-0284 (988/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:26:24 [Puente] CC-0284 está esperando para cruzar hacia la izquierda.
+2024-06-11 19:26:24 [Coche] Coche 5863-DQP (32/120L)(SOLEADO) esperando para cruzar el puente derecho
+2024-06-11 19:26:24 [Coche] Coche 9406-BFS (47/92L)(SOLEADO) dirigiéndose al tramo 1
+2024-06-11 19:26:25 [Camion] Camion CC-4025 (614/1000L) descansando en el parking
+2024-06-11 19:26:25 [Camion] Camion CC-3372 (506/1000L) es creado
+2024-06-11 19:26:25 [Camion] Camion CC-3372 (506/1000L) cargando combustible en la ciudad
+2024-06-11 19:26:25 [Coche] Coche 6217-HZV (36/98L)(LLUVIA) es creado
+2024-06-11 19:26:25 [Coche] Coche 6217-HZV (36/98L)(LLUVIA) realizando verificaciones técnicas
+2024-06-11 19:26:26 [Camion] Camion CC-6294 (711/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:26:27 [Camion] Camion CC-7832 (919/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:26:27 [Puente] CC-7832 está esperando para cruzar hacia la izquierda.
+2024-06-11 19:26:27 [Camion] Camion CC-3746 (527/1000L) descansando en el parking
+2024-06-11 19:26:27 [Coche] Coche 6134-LTL (40/114L)(SOLEADO) esperando para cruzar el puente izquierdo
+2024-06-11 19:26:27 [Puente] 6134-LTL está esperando para cruzar hacia la izquierda.
+2024-06-11 19:26:27 [Coche] Coche 7596-VJQ (42/91L)(SOLEADO) dirigiéndose al tramo 1
+2024-06-11 19:26:27 [Gasolinera] CC-2516 ha repostado 107 litros. Gasolina restante: 0 litros.
+2024-06-11 19:26:27 [Camion] Camion CC-2516 (836/1000L) regresando a la ciudad
+2024-06-11 19:26:27 [Gasolinera] 8926-ZMD empieza a repostar 0 litros.
+2024-06-11 19:26:28 [Camion] Camion CC-4025 (614/1000L) dirigiéndose a la gasolinera Dch
+2024-06-11 19:26:28 [Camion] Camion CC-8562 (647/1000L) es creado
+2024-06-11 19:26:28 [Camion] Camion CC-8562 (647/1000L) cargando combustible en la ciudad
+2024-06-11 19:26:28 [Coche] Coche 9406-BFS (47/92L)(SOLEADO) esperando para cruzar el puente izquierdo
+2024-06-11 19:26:28 [Puente] 9406-BFS está esperando para cruzar hacia la izquierda.
+2024-06-11 19:26:28 [Coche] Coche 2030-KZH (41/80L)(LLUVIA) es creado
+2024-06-11 19:26:28 [Coche] Coche 6217-HZV (36/98L)(LLUVIA) dirigiéndose al tramo 3
+2024-06-11 19:26:28 [Coche] Coche 2030-KZH (41/80L)(LLUVIA) realizando verificaciones técnicas
+2024-06-11 19:26:29 [Camion] Camion CC-2643 (664/1000L) descansando en el parking
+2024-06-11 19:26:29 [Camion] Camion CC-6294 (711/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:26:29 [Puente] CC-6294 está esperando para cruzar hacia la izquierda.
+2024-06-11 19:26:30 [Coche] Coche 8171-ZMB (42/103L)(NIEVE) es creado
+2024-06-11 19:26:30 [Coche] Coche 8171-ZMB (42/103L)(NIEVE) realizando verificaciones técnicas
+2024-06-11 19:26:31 [Gasolinera] 8926-ZMD ha repostado 0 litros. Gasolina restante: 0 litros.
+2024-06-11 19:26:31 [Gasolinera] CC-6382 empieza a repostar 0 litros.
+2024-06-11 19:26:31 [Camion] Camion CC-4025 (614/1000L) esperando para cruzar el puente derecho
+2024-06-11 19:26:31 [Coche] Coche 7596-VJQ (42/91L)(SOLEADO) esperando para cruzar el puente izquierdo
+2024-06-11 19:26:31 [Puente] 7596-VJQ está esperando para cruzar hacia la izquierda.
+2024-06-11 19:26:31 [Puente] Grupo de 10 vehículos cruzando hacia la izquierda.
+2024-06-11 19:26:31 [Coche] Coche 2030-KZH (41/80L)(LLUVIA) dirigiéndose al tramo 2
+2024-06-11 19:26:31 [Coche] Coche 6616-XKF (36/115L)(LLUVIA) es creado
+2024-06-11 19:26:31 [Coche] Coche 6616-XKF (36/115L)(LLUVIA) realizando verificaciones técnicas
+2024-06-11 19:26:32 [Camion] Camion CC-3746 (527/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:26:32 [Camion] Camion CC-7545 (846/1000L) es creado
+2024-06-11 19:26:32 [Camion] Camion CC-7545 (846/1000L) cargando combustible en la ciudad
+2024-06-11 19:26:32 [Coche] Coche 6217-HZV (36/98L)(LLUVIA) esperando para cruzar el puente derecho
+2024-06-11 19:26:32 [Camion] Camion CC-5530 (1000/1000L) cargando combustible en la ciudad
+2024-06-11 19:26:33 [Camion] Camion CC-3658 (1000/1000L) cargando combustible en la ciudad
+2024-06-11 19:26:33 [Camion] Camion CC-2990 (1000/1000L) descansando en el parking
+2024-06-11 19:26:34 [Camion] Camion CC-2643 (664/1000L) dirigiéndose a la gasolinera Dch
+2024-06-11 19:26:34 [Camion] Camion CC-5780 (837/1000L) es creado
+2024-06-11 19:26:34 [Camion] Camion CC-5780 (837/1000L) cargando combustible en la ciudad
+2024-06-11 19:26:34 [Coche] Coche 2030-KZH (41/80L)(LLUVIA) esperando para cruzar el puente izquierdo
+2024-06-11 19:26:34 [Puente] 2030-KZH está esperando para cruzar hacia la izquierda.
+2024-06-11 19:26:34 [Coche] Coche 6616-XKF (36/115L)(LLUVIA) dirigiéndose al tramo 2
+2024-06-11 19:26:34 [Coche] Coche 2963-SKC (26/95L)(SOLEADO) es creado
+2024-06-11 19:26:34 [Coche] Coche 8171-ZMB (42/103L)(NIEVE) dirigiéndose al tramo 3
+2024-06-11 19:26:34 [Coche] Coche 2963-SKC (26/95L)(SOLEADO) realizando verificaciones técnicas
+2024-06-11 19:26:34 [Gasolinera] CC-6382 ha repostado 0 litros. Gasolina restante: 0 litros.
+2024-06-11 19:26:34 [Camion] Camion CC-6382 (927/1000L) regresando a la ciudad
+2024-06-11 19:26:34 [Gasolinera] CC-4364 empieza a repostar 0 litros.
+2024-06-11 19:26:35 [Camion] Camion CC-0875 (884/1000L) descansando en el parking
+2024-06-11 19:26:36 [Puente] 7596-VJQ ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:36 [Puente] CC-7832 ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:36 [Puente] CC-0284 ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:36 [Puente] 8006-TTZ ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:36 [Puente] CC-1402 ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:36 [Puente] 1244-DYM ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:36 [Puente] 0878-SFZ ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:36 [Puente] CC-6294 ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:36 [Puente] 9406-BFS ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:36 [Puente] 6134-LTL ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:36 [Coche] Coche 9974-BSJ (44/107L)(LLUVIA) es creado
+2024-06-11 19:26:36 [Coche] Coche 9974-BSJ (44/107L)(LLUVIA) realizando verificaciones técnicas
+2024-06-11 19:26:36 [Camion] Camion CC-2516 (836/1000L) descansando en el parking
+2024-06-11 19:26:37 [Camion] Camion CC-2643 (664/1000L) esperando para cruzar el puente derecho
+2024-06-11 19:26:37 [Camion] Camion CC-8562 (684/1000L) descansando en el parking
+2024-06-11 19:26:37 [Camion] Camion CC-3746 (527/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:26:37 [Puente] CC-3746 está esperando para cruzar hacia la izquierda.
+2024-06-11 19:26:37 [Coche] Coche 2963-SKC (26/95L)(SOLEADO) dirigiéndose al tramo 4
+2024-06-11 19:26:38 [Camion] Camion CC-3372 (703/1000L) descansando en el parking
+2024-06-11 19:26:38 [Camion] Camion CC-1383 (788/1000L) es creado
+2024-06-11 19:26:38 [Camion] Camion CC-1383 (788/1000L) cargando combustible en la ciudad
+2024-06-11 19:26:38 [Coche] Coche 1544-WGQ (39/94L)(LLUVIA) es creado
+2024-06-11 19:26:38 [Coche] Coche 1544-WGQ (39/94L)(LLUVIA) realizando verificaciones técnicas
+2024-06-11 19:26:39 [Coche] Coche 6616-XKF (36/115L)(LLUVIA) esperando para cruzar el puente izquierdo
+2024-06-11 19:26:39 [Puente] 6616-XKF está esperando para cruzar hacia la izquierda.
+2024-06-11 19:26:39 [Coche] Coche 8171-ZMB (42/103L)(NIEVE) esperando para cruzar el puente derecho
+2024-06-11 19:26:39 [Gasolinera] CC-4364 ha repostado 0 litros. Gasolina restante: 0 litros.
+2024-06-11 19:26:39 [Camion] Camion CC-4364 (857/1000L) regresando a la ciudad
+2024-06-11 19:26:39 [Gasolinera] 6650-DNT empieza a repostar 0 litros.
+2024-06-11 19:26:40 [Camion] Camion CC-0875 (884/1000L) dirigiéndose a la gasolinera Dch
+2024-06-11 19:26:40 [Camion] Camion CC-5714 (987/1000L) es creado
+2024-06-11 19:26:40 [Camion] Camion CC-5714 (987/1000L) cargando combustible en la ciudad
+2024-06-11 19:26:40 [Coche] Coche 9974-BSJ (44/107L)(LLUVIA) dirigiéndose al tramo 1
+2024-06-11 19:26:40 [Coche] Coche 4127-PMY (35/88L)(NIEVE) es creado
+2024-06-11 19:26:40 [Coche] Coche 4127-PMY (35/88L)(NIEVE) realizando verificaciones técnicas
+2024-06-11 19:26:41 [Camion] Camion CC-7545 (827/1000L) descansando en el parking
+2024-06-11 19:26:41 [Camion] Camion CC-8562 (684/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:26:41 [Coche] Coche 2963-SKC (26/95L)(SOLEADO) esperando para cruzar el puente derecho
+2024-06-11 19:26:42 [Camion] Camion CC-3372 (703/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:26:42 [Coche] Coche 8410-SZN (34/110L)(SOLEADO) es creado
+2024-06-11 19:26:42 [Coche] Coche 8410-SZN (34/110L)(SOLEADO) realizando verificaciones técnicas
+2024-06-11 19:26:42 [Camion] Camion CC-6382 (927/1000L) descansando en el parking
+2024-06-11 19:26:43 [Camion] Camion CC-3658 (710/1000L) descansando en el parking
+2024-06-11 19:26:43 [Coche] Coche 9974-BSJ (44/107L)(LLUVIA) esperando para cruzar el puente izquierdo
+2024-06-11 19:26:43 [Coche] Coche 1544-WGQ (39/94L)(LLUVIA) dirigiéndose al tramo 2
+2024-06-11 19:26:43 [Puente] 9974-BSJ está esperando para cruzar hacia la izquierda.
+2024-06-11 19:26:44 [Gasolinera] 6650-DNT ha repostado 0 litros. Gasolina restante: 0 litros.
+2024-06-11 19:26:44 [Gasolinera] 6448-YSW empieza a repostar 0 litros.
+2024-06-11 19:26:44 [Camion] Camion CC-0875 (884/1000L) esperando para cruzar el puente derecho
+2024-06-11 19:26:44 [Camion] Camion CC-7545 (827/1000L) dirigiéndose a la gasolinera Dch
+2024-06-11 19:26:44 [Camion] Camion CC-7574 (709/1000L) es creado
+2024-06-11 19:26:44 [Camion] Camion CC-7574 (709/1000L) cargando combustible en la ciudad
+2024-06-11 19:26:44 [Camion] Camion CC-2516 (836/1000L) cargando combustible en la ciudad
+2024-06-11 19:26:44 [Camion] Camion CC-5530 (875/1000L) descansando en el parking
+2024-06-11 19:26:45 [Coche] Coche 8410-SZN (34/110L)(SOLEADO) dirigiéndose al tramo 2
+2024-06-11 19:26:45 [Coche] Coche 4127-PMY (35/88L)(NIEVE) dirigiéndose al tramo 3
+2024-06-11 19:26:45 [Coche] Coche 6691-TWX (37/125L)(NIEVE) es creado
+2024-06-11 19:26:45 [Coche] Coche 6691-TWX (37/125L)(NIEVE) realizando verificaciones técnicas
+2024-06-11 19:26:45 [Camion] Camion CC-4364 (857/1000L) descansando en el parking
+2024-06-11 19:26:45 [Camion] Camion CC-2990 (1000/1000L) cargando combustible en la ciudad
+2024-06-11 19:26:46 [Camion] Camion CC-3372 (703/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:26:46 [Puente] CC-3372 está esperando para cruzar hacia la izquierda.
+2024-06-11 19:26:46 [Camion] Camion CC-5780 (888/1000L) descansando en el parking
+2024-06-11 19:26:46 [Camion] Camion CC-8562 (684/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:26:46 [Puente] CC-8562 está esperando para cruzar hacia la izquierda.
+2024-06-11 19:26:47 [Camion] Camion CC-3658 (710/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:26:47 [Coche] Coche 1544-WGQ (39/94L)(LLUVIA) esperando para cruzar el puente izquierdo
+2024-06-11 19:26:47 [Puente] 1544-WGQ está esperando para cruzar hacia la izquierda.
+2024-06-11 19:26:47 [Coche] Coche 8095-RCG (47/113L)(SOLEADO) es creado
+2024-06-11 19:26:47 [Coche] Coche 8095-RCG (47/113L)(SOLEADO) realizando verificaciones técnicas
+2024-06-11 19:26:48 [Camion] Camion CC-2267 (584/1000L) es creado
+2024-06-11 19:26:48 [Camion] Camion CC-2267 (584/1000L) cargando combustible en la ciudad
+2024-06-11 19:26:48 [Coche] Coche 4127-PMY (35/88L)(NIEVE) esperando para cruzar el puente derecho
+2024-06-11 19:26:49 [Gasolinera] 6448-YSW ha repostado 0 litros. Gasolina restante: 0 litros.
+2024-06-11 19:26:49 [Gasolinera] 1320-NKF empieza a repostar 0 litros.
+2024-06-11 19:26:49 [Camion] Camion CC-1383 (894/1000L) descansando en el parking
+2024-06-11 19:26:49 [Camion] Camion CC-7545 (827/1000L) esperando para cruzar el puente derecho
+2024-06-11 19:26:49 [Coche] Coche 8410-SZN (34/110L)(SOLEADO) esperando para cruzar el puente izquierdo
+2024-06-11 19:26:49 [Puente] 8410-SZN está esperando para cruzar hacia la izquierda.
+2024-06-11 19:26:49 [Coche] Coche 1345-NZF (43/101L)(NIEVE) es creado
+2024-06-11 19:26:49 [Coche] Coche 1345-NZF (43/101L)(NIEVE) realizando verificaciones técnicas
+2024-06-11 19:26:49 [Camion] Camion CC-5530 (875/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:26:50 [Camion] Camion CC-3658 (710/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:26:50 [Puente] CC-3658 está esperando para cruzar hacia la izquierda.
+2024-06-11 19:26:50 [Camion] Camion CC-5714 (932/1000L) descansando en el parking
+2024-06-11 19:26:50 [Coche] Coche 8095-RCG (47/113L)(SOLEADO) dirigiéndose al tramo 4
+2024-06-11 19:26:50 [Coche] Coche 6691-TWX (37/125L)(NIEVE) dirigiéndose al tramo 3
+2024-06-11 19:26:51 [Camion] Camion CC-5780 (888/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:26:51 [Coche] Coche 3249-CBL (45/90L)(LLUVIA) es creado
+2024-06-11 19:26:51 [Coche] Coche 3249-CBL (45/90L)(LLUVIA) realizando verificaciones técnicas
+2024-06-11 19:26:52 [Camion] Camion CC-1383 (894/1000L) dirigiéndose a la gasolinera Dch
+2024-06-11 19:26:52 [Camion] Camion CC-6051 (882/1000L) es creado
+2024-06-11 19:26:52 [Camion] Camion CC-6051 (882/1000L) cargando combustible en la ciudad
+2024-06-11 19:26:52 [Coche] Coche 3652-GYV (25/94L)(SOLEADO) es creado
+2024-06-11 19:26:52 [Coche] Coche 3652-GYV (25/94L)(SOLEADO) realizando verificaciones técnicas
+2024-06-11 19:26:53 [Coche] Coche 6691-TWX (37/125L)(NIEVE) esperando para cruzar el puente derecho
+2024-06-11 19:26:53 [Coche] Coche 1152-JGS (43/86L)(SOLEADO) es creado
+2024-06-11 19:26:53 [Coche] Coche 1152-JGS (43/86L)(SOLEADO) realizando verificaciones técnicas
+2024-06-11 19:26:53 [Camion] Camion CC-2516 (501/1000L) descansando en el parking
+2024-06-11 19:26:53 [Gasolinera] 1320-NKF ha repostado 0 litros. Gasolina restante: 0 litros.
+2024-06-11 19:26:53 [Gasolinera] CC-7194 empieza a repostar 0 litros.
+2024-06-11 19:26:53 [Camion] Camion CC-5530 (875/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:26:53 [Puente] CC-5530 está esperando para cruzar hacia la izquierda.
+2024-06-11 19:26:53 [Puente] Grupo de 10 vehículos cruzando hacia la izquierda.
+2024-06-11 19:26:53 [Camion] Camion CC-6382 (927/1000L) cargando combustible en la ciudad
+2024-06-11 19:26:54 [Camion] Camion CC-7574 (522/1000L) descansando en el parking
+2024-06-11 19:26:54 [Camion] Camion CC-6677 (940/1000L) es creado
+2024-06-11 19:26:54 [Camion] Camion CC-6677 (940/1000L) cargando combustible en la ciudad
+2024-06-11 19:26:54 [Coche] Coche 3249-CBL (45/90L)(LLUVIA) dirigiéndose al tramo 4
+2024-06-11 19:26:54 [Coche] Coche 1345-NZF (43/101L)(NIEVE) dirigiéndose al tramo 4
+2024-06-11 19:26:55 [Camion] Camion CC-5780 (888/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:26:55 [Puente] CC-5780 está esperando para cruzar hacia la izquierda.
+2024-06-11 19:26:55 [Camion] Camion CC-5714 (932/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:26:55 [Coche] Coche 8095-RCG (47/113L)(SOLEADO) esperando para cruzar el puente derecho
+2024-06-11 19:26:56 [Camion] Camion CC-2267 (947/1000L) descansando en el parking
+2024-06-11 19:26:56 [Camion] Camion CC-9635 (842/1000L) es creado
+2024-06-11 19:26:56 [Camion] Camion CC-9635 (842/1000L) cargando combustible en la ciudad
+2024-06-11 19:26:56 [Coche] Coche 7118-MHB (46/103L)(LLUVIA) es creado
+2024-06-11 19:26:56 [Coche] Coche 3652-GYV (25/94L)(SOLEADO) dirigiéndose al tramo 1
+2024-06-11 19:26:56 [Coche] Coche 7118-MHB (46/103L)(LLUVIA) realizando verificaciones técnicas
+2024-06-11 19:26:57 [Gasolinera] CC-7194 ha repostado 0 litros. Gasolina restante: 0 litros.
+2024-06-11 19:26:57 [Camion] Camion CC-7194 (906/1000L) regresando a la ciudad
+2024-06-11 19:26:57 [Gasolinera] CC-6700 empieza a repostar 0 litros.
+2024-06-11 19:26:57 [Camion] Camion CC-1383 (894/1000L) esperando para cruzar el puente derecho
+2024-06-11 19:26:57 [Coche] Coche 1345-NZF (43/101L)(NIEVE) esperando para cruzar el puente derecho
+2024-06-11 19:26:57 [Camion] Camion CC-4364 (857/1000L) cargando combustible en la ciudad
+2024-06-11 19:26:57 [Camion] Camion CC-2516 (501/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:26:58 [Camion] Camion CC-7574 (522/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:26:58 [Coche] Coche 4727-BCY (30/105L)(NIEVE) es creado
+2024-06-11 19:26:58 [Coche] Coche 4727-BCY (30/105L)(NIEVE) realizando verificaciones técnicas
+2024-06-11 19:26:58 [Coche] Coche 1152-JGS (43/86L)(SOLEADO) dirigiéndose al tramo 2
+2024-06-11 19:26:58 [Puente] CC-5530 ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:58 [Puente] 8410-SZN ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:58 [Puente] 1544-WGQ ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:58 [Puente] CC-8562 ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:58 [Puente] CC-3372 ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:58 [Puente] 9974-BSJ ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:58 [Puente] 6616-XKF ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:58 [Puente] CC-3746 ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:58 [Puente] 2030-KZH ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:58 [Puente] CC-3658 ha cruzado el puente hacia la izquierda.
+2024-06-11 19:26:59 [Camion] Camion CC-2810 (603/1000L) es creado
+2024-06-11 19:26:59 [Camion] Camion CC-2810 (603/1000L) cargando combustible en la ciudad
+2024-06-11 19:26:59 [Coche] Coche 3249-CBL (45/90L)(LLUVIA) esperando para cruzar el puente derecho
+2024-06-11 19:26:59 [Coche] Coche 2221-WSS (41/75L)(LLUVIA) es creado
+2024-06-11 19:26:59 [Coche] Coche 2221-WSS (41/75L)(LLUVIA) realizando verificaciones técnicas
+2024-06-11 19:26:59 [Camion] Camion CC-2990 (708/1000L) descansando en el parking
+2024-06-11 19:27:00 [Camion] Camion CC-5714 (932/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:27:00 [Puente] CC-5714 está esperando para cruzar hacia la izquierda.
+2024-06-11 19:27:00 [Camion] Camion CC-2267 (947/1000L) dirigiéndose a la gasolinera Dch
+2024-06-11 19:27:00 [Coche] Coche 3652-GYV (25/94L)(SOLEADO) esperando para cruzar el puente izquierdo
+2024-06-11 19:27:00 [Puente] 3652-GYV está esperando para cruzar hacia la izquierda.
+2024-06-11 19:27:00 [Coche] Coche 7644-QJZ (33/102L)(LLUVIA) es creado
+2024-06-11 19:27:00 [Coche] Coche 7644-QJZ (33/102L)(LLUVIA) realizando verificaciones técnicas
+2024-06-11 19:27:00 [Camion] Camion CC-2516 (501/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:27:00 [Puente] CC-2516 está esperando para cruzar hacia la izquierda.
+2024-06-11 19:27:01 [Camion] Camion CC-7592 (519/1000L) es creado
+2024-06-11 19:27:01 [Camion] Camion CC-7592 (519/1000L) cargando combustible en la ciudad
+2024-06-11 19:27:01 [Coche] Coche 7118-MHB (46/103L)(LLUVIA) dirigiéndose al tramo 1
+2024-06-11 19:27:01 [Coche] Coche 7438-ZYQ (27/115L)(NIEVE) es creado
+2024-06-11 19:27:01 [Coche] Coche 7438-ZYQ (27/115L)(NIEVE) realizando verificaciones técnicas
+2024-06-11 19:27:02 [Gasolinera] CC-6700 ha repostado 0 litros. Gasolina restante: 0 litros.
+2024-06-11 19:27:02 [Camion] Camion CC-6700 (959/1000L) regresando a la ciudad
+2024-06-11 19:27:02 [Gasolinera] CC-9730 empieza a repostar 0 litros.
+2024-06-11 19:27:02 [Coche] Coche 1152-JGS (43/86L)(SOLEADO) esperando para cruzar el puente izquierdo
+2024-06-11 19:27:02 [Puente] 1152-JGS está esperando para cruzar hacia la izquierda.
+2024-06-11 19:27:03 [Camion] Camion CC-7574 (522/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:27:03 [Puente] CC-7574 está esperando para cruzar hacia la izquierda.
+2024-06-11 19:27:03 [Camion] Camion CC-8037 (635/1000L) es creado
+2024-06-11 19:27:03 [Camion] Camion CC-8037 (635/1000L) cargando combustible en la ciudad
+2024-06-11 19:27:03 [Coche] Coche 4727-BCY (30/105L)(NIEVE) dirigiéndose al tramo 3
+2024-06-11 19:27:03 [Coche] Coche 7644-QJZ (33/102L)(LLUVIA) dirigiéndose al tramo 1
+2024-06-11 19:27:03 [Coche] Coche 2221-WSS (41/75L)(LLUVIA) dirigiéndose al tramo 3
+2024-06-11 19:27:03 [Camion] Camion CC-2990 (708/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:27:04 [Camion] Camion CC-7194 (906/1000L) descansando en el parking
+2024-06-11 19:27:04 [Coche] Coche 7118-MHB (46/103L)(LLUVIA) esperando para cruzar el puente izquierdo
+2024-06-11 19:27:04 [Puente] 7118-MHB está esperando para cruzar hacia la izquierda.
+2024-06-11 19:27:04 [Coche] Coche 4962-ZKR (34/120L)(LLUVIA) es creado
+2024-06-11 19:27:04 [Coche] Coche 4962-ZKR (34/120L)(LLUVIA) realizando verificaciones técnicas
+2024-06-11 19:27:04 [Camion] Camion CC-6382 (633/1000L) descansando en el parking
+2024-06-11 19:27:05 [Camion] Camion CC-2267 (947/1000L) esperando para cruzar el puente derecho
+2024-06-11 19:27:06 [Gasolinera] CC-9730 ha repostado 0 litros. Gasolina restante: 0 litros.
+2024-06-11 19:27:06 [Camion] Camion CC-9730 (653/1000L) regresando a la ciudad
+2024-06-11 19:27:06 [Gasolinera] CC-7158 empieza a repostar 0 litros.
+2024-06-11 19:27:06 [Camion] Camion CC-6051 (912/1000L) descansando en el parking
+2024-06-11 19:27:06 [Camion] Camion CC-1220 (523/1000L) es creado
+2024-06-11 19:27:06 [Camion] Camion CC-1220 (523/1000L) cargando combustible en la ciudad
+2024-06-11 19:27:06 [Coche] Coche 7438-ZYQ (27/115L)(NIEVE) dirigiéndose al tramo 1
+2024-06-11 19:27:06 [Coche] Coche 2221-WSS (41/75L)(LLUVIA) esperando para cruzar el puente derecho
+2024-06-11 19:27:06 [Coche] Coche 0583-VSB (47/109L)(NIEVE) es creado
+2024-06-11 19:27:06 [Coche] Coche 0583-VSB (47/109L)(NIEVE) realizando verificaciones técnicas
+2024-06-11 19:27:07 [Camion] Camion CC-9635 (520/1000L) descansando en el parking
+2024-06-11 19:27:07 [Coche] Coche 7644-QJZ (33/102L)(LLUVIA) esperando para cruzar el puente izquierdo
+2024-06-11 19:27:07 [Puente] 7644-QJZ está esperando para cruzar hacia la izquierda.
+2024-06-11 19:27:07 [Coche] Coche 4962-ZKR (34/120L)(LLUVIA) dirigiéndose al tramo 2
+2024-06-11 19:27:07 [Coche] Coche 8938-TDD (30/105L)(LLUVIA) es creado
+2024-06-11 19:27:07 [Coche] Coche 8938-TDD (30/105L)(LLUVIA) realizando verificaciones técnicas
+2024-06-11 19:27:07 [Camion] Camion CC-2990 (708/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:27:07 [Puente] CC-2990 está esperando para cruzar hacia la izquierda.
+2024-06-11 19:27:08 [Camion] Camion CC-6677 (905/1000L) descansando en el parking
+2024-06-11 19:27:08 [Coche] Coche 4727-BCY (30/105L)(NIEVE) esperando para cruzar el puente derecho
+2024-06-11 19:27:09 [Camion] Camion CC-6700 (959/1000L) descansando en el parking
+2024-06-11 19:27:09 [Camion] Camion CC-6051 (912/1000L) dirigiéndose a la gasolinera Dch
+2024-06-11 19:27:09 [Coche] Coche 7438-ZYQ (27/115L)(NIEVE) esperando para cruzar el puente izquierdo
+2024-06-11 19:27:09 [Puente] 7438-ZYQ está esperando para cruzar hacia la izquierda.
+2024-06-11 19:27:09 [Puente] Grupo de 10 vehículos cruzando hacia la izquierda.
+2024-06-11 19:27:09 [Camion] Camion CC-4364 (893/1000L) descansando en el parking
+2024-06-11 19:27:09 [Coche] Coche 2529-DBG (26/107L)(LLUVIA) es creado
+2024-06-11 19:27:09 [Coche] Coche 0583-VSB (47/109L)(NIEVE) dirigiéndose al tramo 4
+2024-06-11 19:27:09 [Coche] Coche 2529-DBG (26/107L)(LLUVIA) realizando verificaciones técnicas
+2024-06-11 19:27:09 [Camion] Camion CC-6382 (633/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:27:10 [Camion] Camion CC-7592 (897/1000L) descansando en el parking
+2024-06-11 19:27:10 [Camion] Camion CC-5841 (811/1000L) es creado
+2024-06-11 19:27:10 [Camion] Camion CC-5841 (811/1000L) cargando combustible en la ciudad
+2024-06-11 19:27:10 [Coche] Coche 4962-ZKR (34/120L)(LLUVIA) esperando para cruzar el puente izquierdo
+2024-06-11 19:27:10 [Puente] 4962-ZKR está esperando para cruzar hacia la izquierda.
+2024-06-11 19:27:10 [Coche] Coche 1016-KPL (48/99L)(NIEVE) es creado
+2024-06-11 19:27:10 [Coche] Coche 1016-KPL (48/99L)(NIEVE) realizando verificaciones técnicas
+2024-06-11 19:27:11 [Camion] Camion CC-6677 (905/1000L) dirigiéndose a la gasolinera Dch
+2024-06-11 19:27:11 [Gasolinera] CC-7158 ha repostado 0 litros. Gasolina restante: 0 litros.
+2024-06-11 19:27:11 [Camion] Camion CC-7158 (959/1000L) regresando a la ciudad
+2024-06-11 19:27:11 [Gasolinera] 4910-SBZ empieza a repostar 0 litros.
+2024-06-11 19:27:11 [Coche] Coche 8938-TDD (30/105L)(LLUVIA) dirigiéndose al tramo 1
+2024-06-11 19:27:12 [Camion] Camion CC-9635 (520/1000L) dirigiéndose a la gasolinera Dch
+2024-06-11 19:27:12 [Camion] Camion CC-1105 (621/1000L) es creado
+2024-06-11 19:27:12 [Camion] Camion CC-1105 (621/1000L) cargando combustible en la ciudad
+2024-06-11 19:27:12 [Camion] Camion CC-4364 (893/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:27:12 [Coche] Coche 2529-DBG (26/107L)(LLUVIA) dirigiéndose al tramo 3
+2024-06-11 19:27:12 [Coche] Coche 8784-SMP (46/116L)(NIEVE) es creado
+2024-06-11 19:27:12 [Coche] Coche 0583-VSB (47/109L)(NIEVE) esperando para cruzar el puente derecho
+2024-06-11 19:27:12 [Coche] Coche 8784-SMP (46/116L)(NIEVE) realizando verificaciones técnicas
+2024-06-11 19:27:13 [Camion] Camion CC-7194 (906/1000L) cargando combustible en la ciudad
+2024-06-11 19:27:13 [Camion] Camion CC-9730 (653/1000L) descansando en el parking
+2024-06-11 19:27:13 [Camion] Camion CC-6382 (633/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:27:13 [Puente] CC-6382 está esperando para cruzar hacia la izquierda.
+2024-06-11 19:27:14 [Camion] Camion CC-6051 (912/1000L) esperando para cruzar el puente derecho
+2024-06-11 19:27:14 [Camion] Camion CC-2810 (838/1000L) descansando en el parking
+2024-06-11 19:27:14 [Camion] Camion CC-7592 (897/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:27:14 [Puente] 7438-ZYQ ha cruzado el puente hacia la izquierda.
+2024-06-11 19:27:14 [Puente] 7118-MHB ha cruzado el puente hacia la izquierda.
+2024-06-11 19:27:14 [Puente] CC-7574 ha cruzado el puente hacia la izquierda.
+2024-06-11 19:27:14 [Puente] 1152-JGS ha cruzado el puente hacia la izquierda.
+2024-06-11 19:27:14 [Puente] CC-2516 ha cruzado el puente hacia la izquierda.
+2024-06-11 19:27:14 [Puente] 3652-GYV ha cruzado el puente hacia la izquierda.
+2024-06-11 19:27:14 [Puente] CC-5714 ha cruzado el puente hacia la izquierda.
+2024-06-11 19:27:14 [Puente] CC-5780 ha cruzado el puente hacia la izquierda.
+2024-06-11 19:27:14 [Puente] CC-2990 ha cruzado el puente hacia la izquierda.
+2024-06-11 19:27:14 [Puente] 7644-QJZ ha cruzado el puente hacia la izquierda.
+2024-06-11 19:27:14 [Coche] Coche 7267-LYC (50/86L)(SOLEADO) es creado
+2024-06-11 19:27:14 [Coche] Coche 7267-LYC (50/86L)(SOLEADO) realizando verificaciones técnicas
+2024-06-11 19:27:14 [Coche] Coche 8938-TDD (30/105L)(LLUVIA) esperando para cruzar el puente izquierdo
+2024-06-11 19:27:14 [Puente] 8938-TDD está esperando para cruzar hacia la izquierda.
+2024-06-11 19:27:15 [Camion] Camion CC-8037 (586/1000L) descansando en el parking
+2024-06-11 19:27:15 [Camion] Camion CC-4364 (893/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:27:15 [Puente] CC-4364 está esperando para cruzar hacia la izquierda.
+2024-06-11 19:27:15 [Coche] Coche 1016-KPL (48/99L)(NIEVE) dirigiéndose al tramo 1
+2024-06-11 19:27:15 [Coche] Coche 2529-DBG (26/107L)(LLUVIA) esperando para cruzar el puente derecho
+2024-06-11 19:27:16 [Gasolinera] 4910-SBZ ha repostado 0 litros. Gasolina restante: 0 litros.
+2024-06-11 19:27:16 [Gasolinera] CC-0284 empieza a repostar 0 litros.
+2024-06-11 19:27:16 [Camion] Camion CC-6677 (905/1000L) esperando para cruzar el puente derecho
+2024-06-11 19:27:16 [Camion] Camion CC-9501 (929/1000L) es creado
+2024-06-11 19:27:16 [Camion] Camion CC-9501 (929/1000L) cargando combustible en la ciudad
+2024-06-11 19:27:17 [Camion] Camion CC-2810 (838/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:27:17 [Camion] Camion CC-9635 (520/1000L) esperando para cruzar el puente derecho
+2024-06-11 19:27:17 [Camion] Camion CC-7592 (897/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:27:17 [Puente] CC-7592 está esperando para cruzar hacia la izquierda.
+2024-06-11 19:27:17 [Coche] Coche 8784-SMP (46/116L)(NIEVE) dirigiéndose al tramo 2
+2024-06-11 19:27:17 [Coche] Coche 9702-LVY (48/77L)(NIEVE) es creado
+2024-06-11 19:27:17 [Coche] Coche 9702-LVY (48/77L)(NIEVE) realizando verificaciones técnicas
+2024-06-11 19:27:18 [Camion] Camion CC-6700 (959/1000L) cargando combustible en la ciudad
+2024-06-11 19:27:19 [Camion] Camion CC-8037 (586/1000L) dirigiéndose a la gasolinera Dch
+2024-06-11 19:27:19 [Camion] Camion CC-3926 (936/1000L) es creado
+2024-06-11 19:27:19 [Camion] Camion CC-3926 (936/1000L) cargando combustible en la ciudad
+2024-06-11 19:27:19 [Coche] Coche 7267-LYC (50/86L)(SOLEADO) dirigiéndose al tramo 4
+2024-06-11 19:27:19 [Coche] Coche 8834-BSL (49/90L)(SOLEADO) es creado
+2024-06-11 19:27:19 [Coche] Coche 8834-BSL (49/90L)(SOLEADO) realizando verificaciones técnicas
+2024-06-11 19:27:20 [Camion] Camion CC-7158 (959/1000L) descansando en el parking
+2024-06-11 19:27:20 [Coche] Coche 1016-KPL (48/99L)(NIEVE) esperando para cruzar el puente izquierdo
+2024-06-11 19:27:20 [Puente] 1016-KPL está esperando para cruzar hacia la izquierda.
+2024-06-11 19:27:20 [Coche] Coche 9702-LVY (48/77L)(NIEVE) dirigiéndose al tramo 1
+2024-06-11 19:27:21 [Gasolinera] CC-0284 ha repostado 0 litros. Gasolina restante: 0 litros.
+2024-06-11 19:27:21 [Camion] Camion CC-0284 (988/1000L) regresando a la ciudad
+2024-06-11 19:27:21 [Gasolinera] CC-7832 empieza a repostar 0 litros.
+2024-06-11 19:27:21 [Camion] Camion CC-1220 (877/1000L) descansando en el parking
+2024-06-11 19:27:21 [Coche] Coche 8784-SMP (46/116L)(NIEVE) esperando para cruzar el puente izquierdo
+2024-06-11 19:27:21 [Puente] 8784-SMP está esperando para cruzar hacia la izquierda.
+2024-06-11 19:27:21 [Coche] Coche 0498-BBB (31/101L)(NIEVE) es creado
+2024-06-11 19:27:21 [Coche] Coche 0498-BBB (31/101L)(NIEVE) realizando verificaciones técnicas
+2024-06-11 19:27:22 [Camion] Camion CC-2810 (838/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:27:22 [Puente] CC-2810 está esperando para cruzar hacia la izquierda.
+2024-06-11 19:27:22 [Camion] Camion CC-8037 (586/1000L) esperando para cruzar el puente derecho
+2024-06-11 19:27:22 [Camion] Camion CC-5841 (784/1000L) descansando en el parking
+2024-06-11 19:27:22 [Camion] Camion CC-9286 (522/1000L) es creado
+2024-06-11 19:27:22 [Camion] Camion CC-9286 (522/1000L) cargando combustible en la ciudad
+2024-06-11 19:27:22 [Coche] Coche 8834-BSL (49/90L)(SOLEADO) dirigiéndose al tramo 2
+2024-06-11 19:27:23 [Coche] Coche 7267-LYC (50/86L)(SOLEADO) esperando para cruzar el puente derecho
+2024-06-11 19:27:23 [Coche] Coche 9702-LVY (48/77L)(NIEVE) esperando para cruzar el puente izquierdo
+2024-06-11 19:27:23 [Coche] Coche 3828-YBT (39/130L)(SOLEADO) es creado
+2024-06-11 19:27:23 [Puente] 9702-LVY está esperando para cruzar hacia la izquierda.
+2024-06-11 19:27:23 [Coche] Coche 3828-YBT (39/130L)(SOLEADO) realizando verificaciones técnicas
+2024-06-11 19:27:24 [Camion] Camion CC-1220 (877/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:27:24 [Gasolinera] CC-7832 ha repostado 0 litros. Gasolina restante: 0 litros.
+2024-06-11 19:27:24 [Gasolinera] 7596-VJQ empieza a repostar 0 litros.
+2024-06-11 19:27:24 [Camion] Camion CC-7832 (919/1000L) regresando a la ciudad
+2024-06-11 19:27:25 [Camion] Camion CC-7194 (957/1000L) descansando en el parking
+2024-06-11 19:27:25 [Camion] Camion CC-1105 (752/1000L) descansando en el parking
+2024-06-11 19:27:25 [Camion] Camion CC-9501 (531/1000L) descansando en el parking
+2024-06-11 19:27:25 [Coche] Coche 0498-BBB (31/101L)(NIEVE) dirigiéndose al tramo 2
+2024-06-11 19:27:25 [Coche] Coche 4055-VFQ (32/129L)(LLUVIA) es creado
+2024-06-11 19:27:25 [Coche] Coche 4055-VFQ (32/129L)(LLUVIA) realizando verificaciones técnicas
+2024-06-11 19:27:26 [Camion] Camion CC-9730 (653/1000L) cargando combustible en la ciudad
+2024-06-11 19:27:26 [Camion] Camion CC-5841 (784/1000L) dirigiéndose a la gasolinera Dch
+2024-06-11 19:27:26 [Camion] Camion CC-6179 (786/1000L) es creado
+2024-06-11 19:27:26 [Camion] Camion CC-6179 (786/1000L) cargando combustible en la ciudad
+2024-06-11 19:27:26 [Coche] Coche 8834-BSL (49/90L)(SOLEADO) esperando para cruzar el puente izquierdo
+2024-06-11 19:27:26 [Puente] 8834-BSL está esperando para cruzar hacia la izquierda.
+2024-06-11 19:27:26 [Puente] Grupo de 10 vehículos cruzando hacia la izquierda.
+2024-06-11 19:27:26 [Coche] Coche 7114-CGN (42/87L)(LLUVIA) es creado
+2024-06-11 19:27:26 [Coche] Coche 7114-CGN (42/87L)(LLUVIA) realizando verificaciones técnicas
+2024-06-11 19:27:27 [Coche] Coche 3828-YBT (39/130L)(SOLEADO) dirigiéndose al tramo 1
+2024-06-11 19:27:28 [Gasolinera] 7596-VJQ ha repostado 0 litros. Gasolina restante: 0 litros.
+2024-06-11 19:27:28 [Gasolinera] 1244-DYM empieza a repostar 0 litros.
+2024-06-11 19:27:28 [Camion] Camion CC-0284 (988/1000L) descansando en el parking
+2024-06-11 19:27:28 [Coche] Coche 0498-BBB (31/101L)(NIEVE) esperando para cruzar el puente izquierdo
+2024-06-11 19:27:28 [Puente] 0498-BBB está esperando para cruzar hacia la izquierda.
+2024-06-11 19:27:28 [Coche] Coche 4055-VFQ (32/129L)(LLUVIA) dirigiéndose al tramo 3
+2024-06-11 19:27:29 [Camion] Camion CC-1220 (877/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:27:29 [Puente] CC-1220 está esperando para cruzar hacia la izquierda.
+2024-06-11 19:27:29 [Camion] Camion CC-5115 (961/1000L) es creado
+2024-06-11 19:27:29 [Camion] Camion CC-5115 (961/1000L) cargando combustible en la ciudad
+2024-06-11 19:27:29 [Coche] Coche 8352-TQS (33/86L)(NIEVE) es creado
+2024-06-11 19:27:29 [Coche] Coche 8352-TQS (33/86L)(NIEVE) realizando verificaciones técnicas
+2024-06-11 19:27:30 [Camion] Camion CC-7194 (957/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:27:30 [Camion] Camion CC-6700 (664/1000L) descansando en el parking
+2024-06-11 19:27:30 [Camion] Camion CC-5841 (784/1000L) esperando para cruzar el puente derecho
+2024-06-11 19:27:30 [Camion] Camion CC-1105 (752/1000L) dirigiéndose a la gasolinera Dch
+2024-06-11 19:27:30 [Camion] Camion CC-9501 (531/1000L) dirigiéndose a la gasolinera Dch
+2024-06-11 19:27:30 [Coche] Coche 7114-CGN (42/87L)(LLUVIA) dirigiéndose al tramo 1
+2024-06-11 19:27:30 [Camion] Camion CC-7832 (919/1000L) descansando en el parking
+2024-06-11 19:27:31 [Camion] Camion CC-3926 (676/1000L) descansando en el parking
+2024-06-11 19:27:31 [Camion] Camion CC-1125 (698/1000L) es creado
+2024-06-11 19:27:31 [Camion] Camion CC-1125 (698/1000L) cargando combustible en la ciudad
+2024-06-11 19:27:31 [Puente] 4962-ZKR ha cruzado el puente hacia la izquierda.
+2024-06-11 19:27:31 [Puente] 9702-LVY ha cruzado el puente hacia la izquierda.
+2024-06-11 19:27:31 [Puente] CC-2810 ha cruzado el puente hacia la izquierda.
+2024-06-11 19:27:31 [Puente] 8784-SMP ha cruzado el puente hacia la izquierda.
+2024-06-11 19:27:31 [Puente] 1016-KPL ha cruzado el puente hacia la izquierda.
+2024-06-11 19:27:31 [Puente] CC-7592 ha cruzado el puente hacia la izquierda.
+2024-06-11 19:27:31 [Puente] CC-4364 ha cruzado el puente hacia la izquierda.
+2024-06-11 19:27:31 [Puente] 8938-TDD ha cruzado el puente hacia la izquierda.
+2024-06-11 19:27:31 [Puente] 8834-BSL ha cruzado el puente hacia la izquierda.
+2024-06-11 19:27:31 [Puente] CC-6382 ha cruzado el puente hacia la izquierda.
+2024-06-11 19:27:32 [Coche] Coche 3828-YBT (39/130L)(SOLEADO) esperando para cruzar el puente izquierdo
+2024-06-11 19:27:32 [Coche] Coche 4055-VFQ (32/129L)(LLUVIA) esperando para cruzar el puente derecho
+2024-06-11 19:27:32 [Puente] 3828-YBT está esperando para cruzar hacia la izquierda.
+2024-06-11 19:27:32 [Coche] Coche 8352-TQS (33/86L)(NIEVE) dirigiéndose al tramo 2
+2024-06-11 19:27:32 [Coche] Coche 5605-DZX (31/129L)(SOLEADO) es creado
+2024-06-11 19:27:32 [Coche] Coche 5605-DZX (31/129L)(SOLEADO) realizando verificaciones técnicas
+2024-06-11 19:27:33 [Camion] Camion CC-7194 (957/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:27:33 [Puente] CC-7194 está esperando para cruzar hacia la izquierda.
+2024-06-11 19:27:33 [Camion] Camion CC-9501 (531/1000L) esperando para cruzar el puente derecho
+2024-06-11 19:27:33 [Camion] Camion CC-8870 (984/1000L) es creado
+2024-06-11 19:27:33 [Camion] Camion CC-8870 (984/1000L) cargando combustible en la ciudad
+2024-06-11 19:27:33 [Camion] Camion CC-7158 (959/1000L) cargando combustible en la ciudad
+2024-06-11 19:27:33 [Coche] Coche 3621-CPB (35/85L)(SOLEADO) es creado
+2024-06-11 19:27:33 [Coche] Coche 3621-CPB (35/85L)(SOLEADO) realizando verificaciones técnicas
+2024-06-11 19:27:33 [Gasolinera] 1244-DYM ha repostado 0 litros. Gasolina restante: 0 litros.
+2024-06-11 19:27:33 [Gasolinera] 8006-TTZ empieza a repostar 0 litros.
+2024-06-11 19:27:34 [Camion] Camion CC-6700 (664/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:27:34 [Camion] Camion CC-9286 (696/1000L) descansando en el parking
+2024-06-11 19:27:34 [Camion] Camion CC-6179 (551/1000L) descansando en el parking
+2024-06-11 19:27:34 [Coche] Coche 7114-CGN (42/87L)(LLUVIA) esperando para cruzar el puente izquierdo
+2024-06-11 19:27:34 [Puente] 7114-CGN está esperando para cruzar hacia la izquierda.
+2024-06-11 19:27:34 [Coche] Coche 1908-NMQ (36/124L)(SOLEADO) es creado
+2024-06-11 19:27:34 [Coche] Coche 1908-NMQ (36/124L)(SOLEADO) realizando verificaciones técnicas
+2024-06-11 19:27:35 [Camion] Camion CC-1105 (752/1000L) esperando para cruzar el puente derecho
+2024-06-11 19:27:35 [Camion] Camion CC-3926 (676/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:27:35 [Coche] Coche 8352-TQS (33/86L)(NIEVE) esperando para cruzar el puente izquierdo
+2024-06-11 19:27:35 [Puente] 8352-TQS está esperando para cruzar hacia la izquierda.
+2024-06-11 19:27:36 [Camion] Camion CC-3564 (867/1000L) es creado
+2024-06-11 19:27:36 [Camion] Camion CC-3564 (867/1000L) cargando combustible en la ciudad
+2024-06-11 19:27:36 [Coche] Coche 3621-CPB (35/85L)(SOLEADO) dirigiéndose al tramo 3
+2024-06-11 19:27:36 [Coche] Coche 2445-JQF (32/115L)(NIEVE) es creado
+2024-06-11 19:27:36 [Coche] Coche 2445-JQF (32/115L)(NIEVE) realizando verificaciones técnicas
+2024-06-11 19:27:37 [Camion] Camion CC-9730 (863/1000L) descansando en el parking
+2024-06-11 19:27:37 [Gasolinera] 8006-TTZ ha repostado 0 litros. Gasolina restante: 0 litros.
+2024-06-11 19:27:37 [Gasolinera] CC-6294 empieza a repostar 0 litros.
+2024-06-11 19:27:37 [Coche] Coche 5605-DZX (31/129L)(SOLEADO) dirigiéndose al tramo 3
+2024-06-11 19:27:38 [Camion] Camion CC-4746 (761/1000L) es creado
+2024-06-11 19:27:38 [Camion] Camion CC-4746 (761/1000L) cargando combustible en la ciudad
+2024-06-11 19:27:38 [Coche] Coche 1908-NMQ (36/124L)(SOLEADO) dirigiéndose al tramo 2
+2024-06-11 19:27:38 [Coche] Coche 6469-ZJV (30/82L)(LLUVIA) es creado
+2024-06-11 19:27:38 [Coche] Coche 6469-ZJV (30/82L)(LLUVIA) realizando verificaciones técnicas
+2024-06-11 19:27:39 [Camion] Camion CC-6700 (664/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:27:39 [Puente] CC-6700 está esperando para cruzar hacia la izquierda.
+2024-06-11 19:27:39 [Camion] Camion CC-6179 (551/1000L) dirigiéndose a la gasolinera Dch
+2024-06-11 19:27:39 [Camion] Camion CC-9286 (696/1000L) dirigiéndose a la gasolinera Izq
+2024-06-11 19:27:40 [Camion] Camion CC-3926 (676/1000L) esperando para cruzar el puente izquierdo
+2024-06-11 19:27:40 [Puente] CC-3926 está esperando para cruzar hacia la izquierda.
+2024-06-11 19:27:40 [Camion] Camion CC-3074 (981/1000L) es creado
+2024-06-11 19:27:40 [Camion] Camion CC-3074 (981/1000L) cargando combustible en la ciudad
+2024-06-11 19:27:40 [Coche] Coche 3621-CPB (35/85L)(SOLEADO) esperando para cruzar el puente derecho

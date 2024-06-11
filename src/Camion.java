@@ -1,25 +1,18 @@
-
 import java.util.HashSet;
 import java.util.Random;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-/**
- *
- * @author Martin
- */
 public class Camion extends Vehiculo {
 
     private static final Set<String> matriculasGeneradas = new HashSet<>();
     private Random random = new Random();
-     private final Gasolinera gasolineraIzq;
+
+    private final Gasolinera gasolineraIzq;
     private final Gasolinera gasolineraDch;
     private final Puente puenteIzq;
     private final Puente puenteDch;
+    private final Logger logger;
 
     public Camion(int gasolina, int maximo_tanque, int minimo_tanque, Gasolinera gasolineraIzq, Gasolinera gasolineraDch, Puente puenteIzq, Puente puenteDch) {
         super(generarMatricula(), maximo_tanque, gasolina, maximo_tanque, minimo_tanque);
@@ -27,6 +20,8 @@ public class Camion extends Vehiculo {
         this.gasolineraDch = gasolineraDch;
         this.puenteIzq = puenteIzq;
         this.puenteDch = puenteDch;
+        this.logger = Logger.getInstance();
+        logEvento("es creado");
     }
 
     private static synchronized String generarMatricula() {
@@ -38,6 +33,11 @@ public class Camion extends Vehiculo {
         } while (matriculasGeneradas.contains(matricula));
         matriculasGeneradas.add(matricula);
         return matricula;
+    }
+
+    private void logEvento(String evento) {
+        String mensaje = String.format("Camion %s (%d/%dL) %s", getMatricula(), getGasolina(), getTANQUE_GASOLINA(), evento);
+        logger.log("Camion", mensaje);
     }
 
     @Override
@@ -73,13 +73,13 @@ public class Camion extends Vehiculo {
     }
 
     private void cargarCombustibleEnCiudad() throws InterruptedException {
-        System.out.println("Camion " + getMatricula() + " cargando combustible en la ciudad.");
+        logEvento("cargando combustible en la ciudad");
         TimeUnit.SECONDS.sleep(3 + random.nextInt(3)); // Entre 3 y 5 segundos
         setGasolina(getTANQUE_GASOLINA() / 2 + random.nextInt(getTANQUE_GASOLINA() / 2)); // Entre el 50% y el 100%
     }
 
     private void descansarEnParking() throws InterruptedException {
-        System.out.println("Camion " + getMatricula() + " descansando en el parking.");
+        logEvento("descansando en el parking");
         TimeUnit.SECONDS.sleep(3 + random.nextInt(3)); // Entre 3 y 5 segundos
     }
 
@@ -89,14 +89,16 @@ public class Camion extends Vehiculo {
     }
 
     private void dirigirseAGasolinera(int tramo) throws InterruptedException {
-        System.out.println("Camion " + getMatricula() + " dirigiéndose a la gasolinera " + (tramo == 1 ? "Izq" : "Dch"));
+        logEvento("dirigiéndose a la gasolinera " + (tramo == 1 ? "Izq" : "Dch"));
         // Del Parking al Puente
         TimeUnit.SECONDS.sleep(3 + random.nextInt(3)); // Entre 3 y 5 segundos
 
         // Cruzar el puente
         if (tramo == 1) {
+            logEvento("esperando para cruzar el puente izquierdo");
             puenteIzq.cruzarIzquierda(this);
         } else {
+            logEvento("esperando para cruzar el puente derecho");
             puenteDch.cruzarDerecha(this);
         }
 
@@ -105,7 +107,7 @@ public class Camion extends Vehiculo {
     }
 
     private void regresarACiudad() throws InterruptedException {
-        System.out.println("Camion " + getMatricula() + " regresando a la ciudad.");
+        logEvento("regresando a la ciudad");
         // Del Gasolinera al Puente
         TimeUnit.SECONDS.sleep(3 + random.nextInt(3)); // Entre 3 y 5 segundos
         // Del Puente al Parking
